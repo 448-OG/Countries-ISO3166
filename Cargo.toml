@@ -3,10 +3,10 @@ name = "countries-iso3166"
 version = "1.0.0"
 authors = ["448 ENGINEERING <superuser@448.africa>"]
 edition = "2021"
-license = "MIT or Apache-2.0"
+license = "MIT OR Apache-2.0"
 description = "Simple Conversion for Country Codes and Names using ISO 3166"
 categories = ["internalization", "localization", "parsing"]
-keywords = ["country-codes", "ISO 3166-1"]
+keywords = ["country-codes", "ISO-3166-1"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
