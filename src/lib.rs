@@ -29,6 +29,18 @@ mod sanity_checks {
 
             assert_eq!(country_code_iso_31661, CountryIso31661::MU);
         }
+
+        {
+            let country = "Afghanistan";
+            let code: CountryIso31661 = country.into();
+            assert!(code == CountryIso31661::AF)
+        }
+
+        {
+            let country = "AF";
+            let code: CountryIso31661 = country.into();
+            assert!(code == CountryIso31661::AF)
+        }
     }
 
     #[test]

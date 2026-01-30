@@ -9,8 +9,51 @@ The current implementation is only for ISO 3166-1 [https://en.wikipedia.org/wiki
 
 Planned implementation for ISO 3166-3 [https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)
 
-#### LICENSE
+### Examples
+```rust
+use countries_iso3166::CountryIso31661;
+
+// Initializing the `CountryIso31661` using a code
+let country = CountryIso31661::KE;
+
+// Getting the name for the country
+country.as_str();
+
+//Getting the code for the country
+country.country_code();
+
+//
+// -- Convertions from a &str --
+//
+
+// Converting from a country's name
+let country = "Kenya";
+let country_code_iso_31661: CountryIso31661 = country.into();
+
+let into_str: &str = country_code_iso_31661.into();
+assert_eq!(into_str, country);
+
+assert_eq!(country_code_iso_31661, CountryIso31661::KE);
+
+
+// Converting from a country's code
+let country_code = "KE";
+let code: CountryIso31661 = country.into();
+assert!(code == CountryIso31661::KE);
+
+// Countries with special characters are also supported if the characters are UTF-8
+let country = "Côte d'Ivoire";
+let country_code_iso_31661: CountryIso31661 = country.into();
+
+let into_str: &str = country_code_iso_31661.into();
+assert_eq!(into_str, country);
+
+assert_eq!(country_code_iso_31661, CountryIso31661::CI);
+        
+```
+
+### LICENSE
 This code is licensed under APACHE-2.0 or MIT license.
 
-#### Code of Conduct
+### Code of Conduct
 All contributions and communication must adhere to the Rust Code of Conduct
