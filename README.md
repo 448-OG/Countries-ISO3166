@@ -30,7 +30,7 @@ country.country_code();
 let country = "Kenya";
 let country_code_iso_31661: CountryIso31661 = country.into();
 
-let into_str: &str = country_code_iso_31661.into();
+let into_str = country_code_iso_31661.as_str();
 assert_eq!(into_str, country);
 
 assert_eq!(country_code_iso_31661, CountryIso31661::KE);
@@ -45,7 +45,7 @@ assert!(code == CountryIso31661::KE);
 let country = "Côte d'Ivoire";
 let country_code_iso_31661: CountryIso31661 = country.into();
 
-let into_str: &str = country_code_iso_31661.into();
+let into_str = country_code_iso_31661.as_str();
 assert_eq!(into_str, country);
 
 assert_eq!(country_code_iso_31661, CountryIso31661::CI);
