@@ -1,0 +1,4027 @@
+[
+    {
+        "code": "af",
+        "english": "Afrikaans",
+        "native": "Afrikaans"
+    },
+    {
+        "code": "af-NA",
+        "english": "Afrikaans (Namibia)",
+        "native": "Afrikaans (Namibië)"
+    },
+    {
+        "code": "af-ZA",
+        "english": "Afrikaans (South Africa)",
+        "native": "Afrikaans (Suid-Afrika)"
+    },
+    {
+        "code": "agq",
+        "english": "Aghem",
+        "native": "Aghem"
+    },
+    {
+        "code": "agq-CM",
+        "english": "Aghem (Cameroon)",
+        "native": "Aghem (Kàmàlûŋ)"
+    },
+    {
+        "code": "ak",
+        "english": "Akan",
+        "native": "Akan"
+    },
+    {
+        "code": "ak-GH",
+        "english": "Akan (Ghana)",
+        "native": "Akan (Gaana)"
+    },
+    {
+        "code": "am",
+        "english": "Amharic",
+        "native": "አማርኛ"
+    },
+    {
+        "code": "am-ET",
+        "english": "Amharic (Ethiopia)",
+        "native": "አማርኛ (ኢትዮጵያ)"
+    },
+    {
+        "code": "ar",
+        "english": "Arabic",
+        "native": "العربية"
+    },
+    {
+        "code": "ar-001",
+        "english": "Arabic (world)",
+        "native": "العربية (العالم)"
+    },
+    {
+        "code": "ar-AE",
+        "english": "Arabic (United Arab Emirates)",
+        "native": "العربية (الإمارات العربية المتحدة)"
+    },
+    {
+        "code": "ar-BH",
+        "english": "Arabic (Bahrain)",
+        "native": "العربية (البحرين)"
+    },
+    {
+        "code": "ar-DJ",
+        "english": "Arabic (Djibouti)",
+        "native": "العربية (جيبوتي)"
+    },
+    {
+        "code": "ar-DZ",
+        "english": "Arabic (Algeria)",
+        "native": "العربية (الجزائر)"
+    },
+    {
+        "code": "ar-EG",
+        "english": "Arabic (Egypt)",
+        "native": "العربية (مصر)"
+    },
+    {
+        "code": "ar-EH",
+        "english": "Arabic (Western Sahara)",
+        "native": "العربية (الصحراء الغربية)"
+    },
+    {
+        "code": "ar-ER",
+        "english": "Arabic (Eritrea)",
+        "native": "العربية (إريتريا)"
+    },
+    {
+        "code": "ar-IL",
+        "english": "Arabic (Israel)",
+        "native": "العربية (إسرائيل)"
+    },
+    {
+        "code": "ar-IQ",
+        "english": "Arabic (Iraq)",
+        "native": "العربية (العراق)"
+    },
+    {
+        "code": "ar-JO",
+        "english": "Arabic (Jordan)",
+        "native": "العربية (الأردن)"
+    },
+    {
+        "code": "ar-KM",
+        "english": "Arabic (Comoros)",
+        "native": "العربية (جزر القمر)"
+    },
+    {
+        "code": "ar-KW",
+        "english": "Arabic (Kuwait)",
+        "native": "العربية (الكويت)"
+    },
+    {
+        "code": "ar-LB",
+        "english": "Arabic (Lebanon)",
+        "native": "العربية (لبنان)"
+    },
+    {
+        "code": "ar-LY",
+        "english": "Arabic (Libya)",
+        "native": "العربية (ليبيا)"
+    },
+    {
+        "code": "ar-MA",
+        "english": "Arabic (Morocco)",
+        "native": "العربية (المغرب)"
+    },
+    {
+        "code": "ar-MR",
+        "english": "Arabic (Mauritania)",
+        "native": "العربية (موريتانيا)"
+    },
+    {
+        "code": "ar-OM",
+        "english": "Arabic (Oman)",
+        "native": "العربية (عُمان)"
+    },
+    {
+        "code": "ar-PS",
+        "english": "Arabic (Palestinian Territories)",
+        "native": "العربية (الأراضي الفلسطينية)"
+    },
+    {
+        "code": "ar-QA",
+        "english": "Arabic (Qatar)",
+        "native": "العربية (قطر)"
+    },
+    {
+        "code": "ar-SA",
+        "english": "Arabic (Saudi Arabia)",
+        "native": "العربية (المملكة العربية السعودية)"
+    },
+    {
+        "code": "ar-SD",
+        "english": "Arabic (Sudan)",
+        "native": "العربية (السودان)"
+    },
+    {
+        "code": "ar-SO",
+        "english": "Arabic (Somalia)",
+        "native": "العربية (الصومال)"
+    },
+    {
+        "code": "ar-SS",
+        "english": "Arabic (South Sudan)",
+        "native": "العربية (جنوب السودان)"
+    },
+    {
+        "code": "ar-SY",
+        "english": "Arabic (Syria)",
+        "native": "العربية (سوريا)"
+    },
+    {
+        "code": "ar-TD",
+        "english": "Arabic (Chad)",
+        "native": "العربية (تشاد)"
+    },
+    {
+        "code": "ar-TN",
+        "english": "Arabic (Tunisia)",
+        "native": "العربية (تونس)"
+    },
+    {
+        "code": "ar-YE",
+        "english": "Arabic (Yemen)",
+        "native": "العربية (اليمن)"
+    },
+    {
+        "code": "as",
+        "english": "Assamese",
+        "native": "অসমীয়া"
+    },
+    {
+        "code": "as-IN",
+        "english": "Assamese (India)",
+        "native": "অসমীয়া (ভাৰত)"
+    },
+    {
+        "code": "asa",
+        "english": "Asu",
+        "native": "Kipare"
+    },
+    {
+        "code": "asa-TZ",
+        "english": "Asu (Tanzania)",
+        "native": "Kipare (Tadhania)"
+    },
+    {
+        "code": "ast",
+        "english": "Asturian",
+        "native": "asturianu"
+    },
+    {
+        "code": "ast-ES",
+        "english": "Asturian (Spain)",
+        "native": "asturianu (España)"
+    },
+    {
+        "code": "az",
+        "english": "Azerbaijani",
+        "native": "azərbaycan"
+    },
+    {
+        "code": "az-Cyrl",
+        "english": "Azerbaijani (Cyrillic)",
+        "native": "азәрбајҹан (Кирил)"
+    },
+    {
+        "code": "az-Cyrl-AZ",
+        "english": "Azerbaijani (Cyrillic), (Azerbaijan)",
+        "native": "азәрбајҹан (Кирил, Азәрбајҹан)"
+    },
+    {
+        "code": "az-Latn",
+        "english": "Azerbaijani (Latin)",
+        "native": "azərbaycan (latın)"
+    },
+    {
+        "code": "az-Latn-AZ",
+        "english": "Azerbaijani (Latin), (Azerbaijan)",
+        "native": "azərbaycan (latın, Azərbaycan)"
+    },
+    {
+        "code": "bas",
+        "english": "Basaa",
+        "native": "Ɓàsàa"
+    },
+    {
+        "code": "bas-CM",
+        "english": "Basaa (Cameroon)",
+        "native": "Ɓàsàa (Kàmɛ̀rûn)"
+    },
+    {
+        "code": "be",
+        "english": "Belarusian",
+        "native": "беларуская"
+    },
+    {
+        "code": "be-BY",
+        "english": "Belarusian (Belarus)",
+        "native": "беларуская (Беларусь)"
+    },
+    {
+        "code": "bem",
+        "english": "Bemba",
+        "native": "Ichibemba"
+    },
+    {
+        "code": "bem-ZM",
+        "english": "Bemba (Zambia)",
+        "native": "Ichibemba (Zambia)"
+    },
+    {
+        "code": "bez",
+        "english": "Bena",
+        "native": "Hibena"
+    },
+    {
+        "code": "bez-TZ",
+        "english": "Bena (Tanzania)",
+        "native": "Hibena (Hutanzania)"
+    },
+    {
+        "code": "bg",
+        "english": "Bulgarian",
+        "native": "български"
+    },
+    {
+        "code": "bg-BG",
+        "english": "Bulgarian (Bulgaria)",
+        "native": "български (България)"
+    },
+    {
+        "code": "bgc",
+        "english": "Haryanvi",
+        "native": "हरियाणवी"
+    },
+    {
+        "code": "bgc-IN",
+        "english": "Haryanvi (India)",
+        "native": "हरियाणवी (भारत)"
+    },
+    {
+        "code": "bho",
+        "english": "Bhojpuri",
+        "native": "भोजपुरी"
+    },
+    {
+        "code": "bho-IN",
+        "english": "Bhojpuri (India)",
+        "native": "भोजपुरी (भारत)"
+    },
+    {
+        "code": "bm",
+        "english": "Bambara",
+        "native": "bamanakan"
+    },
+    {
+        "code": "bm-ML",
+        "english": "Bambara (Mali)",
+        "native": "bamanakan (Mali)"
+    },
+    {
+        "code": "bn",
+        "english": "Bangla",
+        "native": "বাংলা"
+    },
+    {
+        "code": "bn-BD",
+        "english": "Bangla (Bangladesh)",
+        "native": "বাংলা (বাংলাদেশ)"
+    },
+    {
+        "code": "bn-IN",
+        "english": "Bangla (India)",
+        "native": "বাংলা (ভারত)"
+    },
+    {
+        "code": "bo",
+        "english": "Tibetan",
+        "native": "བོད་སྐད་"
+    },
+    {
+        "code": "bo-CN",
+        "english": "Tibetan (China)",
+        "native": "བོད་སྐད་ (རྒྱ་ནག)"
+    },
+    {
+        "code": "bo-IN",
+        "english": "Tibetan (India)",
+        "native": "བོད་སྐད་ (རྒྱ་གར་)"
+    },
+    {
+        "code": "br",
+        "english": "Breton",
+        "native": "brezhoneg"
+    },
+    {
+        "code": "br-FR",
+        "english": "Breton (France)",
+        "native": "brezhoneg (Frañs)"
+    },
+    {
+        "code": "brx",
+        "english": "Bodo",
+        "native": "बर’"
+    },
+    {
+        "code": "brx-IN",
+        "english": "Bodo (India)",
+        "native": "बर’ (भारत)"
+    },
+    {
+        "code": "bs",
+        "english": "Bosnian",
+        "native": "bosanski"
+    },
+    {
+        "code": "bs-Cyrl",
+        "english": "Bosnian (Cyrillic)",
+        "native": "босански (ћирилица)"
+    },
+    {
+        "code": "bs-Cyrl-BA",
+        "english": "Bosnian (Cyrillic), (Bosnia & Herzegovina)",
+        "native": "босански (ћирилица, Босна и Херцеговина)"
+    },
+    {
+        "code": "bs-Latn",
+        "english": "Bosnian (Latin)",
+        "native": "bosanski (latinica)"
+    },
+    {
+        "code": "bs-Latn-BA",
+        "english": "Bosnian (Latin), (Bosnia & Herzegovina)",
+        "native": "bosanski (latinica, Bosna i Hercegovina)"
+    },
+    {
+        "code": "ca",
+        "english": "Catalan",
+        "native": "català"
+    },
+    {
+        "code": "ca-AD",
+        "english": "Catalan (Andorra)",
+        "native": "català (Andorra)"
+    },
+    {
+        "code": "ca-ES",
+        "english": "Catalan (Spain)",
+        "native": "català (Espanya)"
+    },
+    {
+        "code": "ca-FR",
+        "english": "Catalan (France)",
+        "native": "català (França)"
+    },
+    {
+        "code": "ca-IT",
+        "english": "Catalan (Italy)",
+        "native": "català (Itàlia)"
+    },
+    {
+        "code": "ccp",
+        "english": "Chakma",
+        "native": "𑄌𑄋𑄴𑄟𑄳𑄦"
+    },
+    {
+        "code": "ccp-BD",
+        "english": "Chakma (Bangladesh)",
+        "native": "𑄌𑄋𑄴𑄟𑄳𑄦 (𑄝𑄁𑄣𑄘𑄬𑄌𑄴)"
+    },
+    {
+        "code": "ccp-IN",
+        "english": "Chakma (India)",
+        "native": "𑄌𑄋𑄴𑄟𑄳𑄦 (𑄞𑄢𑄧𑄖𑄴)"
+    },
+    {
+        "code": "ce",
+        "english": "Chechen",
+        "native": "нохчийн"
+    },
+    {
+        "code": "ce-RU",
+        "english": "Chechen (Russia)",
+        "native": "нохчийн (Росси)"
+    },
+    {
+        "code": "ceb",
+        "english": "Cebuano",
+        "native": "Cebuano"
+    },
+    {
+        "code": "ceb-PH",
+        "english": "Cebuano (Philippines)",
+        "native": "Cebuano (Pilipinas)"
+    },
+    {
+        "code": "cgg",
+        "english": "Chiga",
+        "native": "Rukiga"
+    },
+    {
+        "code": "cgg-UG",
+        "english": "Chiga (Uganda)",
+        "native": "Rukiga (Uganda)"
+    },
+    {
+        "code": "chr",
+        "english": "Cherokee",
+        "native": "ᏣᎳᎩ"
+    },
+    {
+        "code": "chr-US",
+        "english": "Cherokee (United States)",
+        "native": "ᏣᎳᎩ (ᏌᏊ ᎢᏳᎾᎵᏍᏔᏅ ᏍᎦᏚᎩ)"
+    },
+    {
+        "code": "ckb",
+        "english": "Central Kurdish",
+        "native": "کوردیی ناوەندی"
+    },
+    {
+        "code": "ckb-IQ",
+        "english": "Central Kurdish (Iraq)",
+        "native": "کوردیی ناوەندی (عێراق)"
+    },
+    {
+        "code": "ckb-IR",
+        "english": "Central Kurdish (Iran)",
+        "native": "کوردیی ناوەندی (ئێران)"
+    },
+    {
+        "code": "cs",
+        "english": "Czech",
+        "native": "čeština"
+    },
+    {
+        "code": "cs-CZ",
+        "english": "Czech (Czechia)",
+        "native": "čeština (Česko)"
+    },
+    {
+        "code": "cv",
+        "english": "Chuvash",
+        "native": "чӑваш"
+    },
+    {
+        "code": "cv-RU",
+        "english": "Chuvash (Russia)",
+        "native": "чӑваш (Раҫҫей)"
+    },
+    {
+        "code": "cy",
+        "english": "Welsh",
+        "native": "Cymraeg"
+    },
+    {
+        "code": "cy-GB",
+        "english": "Welsh (United Kingdom)",
+        "native": "Cymraeg (Y Deyrnas Unedig)"
+    },
+    {
+        "code": "da",
+        "english": "Danish",
+        "native": "dansk"
+    },
+    {
+        "code": "da-DK",
+        "english": "Danish (Denmark)",
+        "native": "dansk (Danmark)"
+    },
+    {
+        "code": "da-GL",
+        "english": "Danish (Greenland)",
+        "native": "dansk (Grønland)"
+    },
+    {
+        "code": "dav",
+        "english": "Taita",
+        "native": "Kitaita"
+    },
+    {
+        "code": "dav-KE",
+        "english": "Taita (Kenya)",
+        "native": "Kitaita (Kenya)"
+    },
+    {
+        "code": "de",
+        "english": "German",
+        "native": "Deutsch"
+    },
+    {
+        "code": "de-AT",
+        "english": "German (Austria)",
+        "native": "Deutsch (Österreich)"
+    },
+    {
+        "code": "de-BE",
+        "english": "German (Belgium)",
+        "native": "Deutsch (Belgien)"
+    },
+    {
+        "code": "de-CH",
+        "english": "German (Switzerland)",
+        "native": "Deutsch (Schweiz)"
+    },
+    {
+        "code": "de-DE",
+        "english": "German (Germany)",
+        "native": "Deutsch (Deutschland)"
+    },
+    {
+        "code": "de-IT",
+        "english": "German (Italy)",
+        "native": "Deutsch (Italien)"
+    },
+    {
+        "code": "de-LI",
+        "english": "German (Liechtenstein)",
+        "native": "Deutsch (Liechtenstein)"
+    },
+    {
+        "code": "de-LU",
+        "english": "German (Luxembourg)",
+        "native": "Deutsch (Luxemburg)"
+    },
+    {
+        "code": "dje",
+        "english": "Zarma",
+        "native": "Zarmaciine"
+    },
+    {
+        "code": "dje-NE",
+        "english": "Zarma (Niger)",
+        "native": "Zarmaciine (Nižer)"
+    },
+    {
+        "code": "doi",
+        "english": "Dogri",
+        "native": "डोगरी"
+    },
+    {
+        "code": "doi-IN",
+        "english": "Dogri (India)",
+        "native": "डोगरी (भारत)"
+    },
+    {
+        "code": "dsb",
+        "english": "Lower Sorbian",
+        "native": "dolnoserbšćina"
+    },
+    {
+        "code": "dsb-DE",
+        "english": "Lower Sorbian (Germany)",
+        "native": "dolnoserbšćina (Nimska)"
+    },
+    {
+        "code": "dua",
+        "english": "Duala",
+        "native": "duálá"
+    },
+    {
+        "code": "dua-CM",
+        "english": "Duala (Cameroon)",
+        "native": "duálá (Cameroun)"
+    },
+    {
+        "code": "dyo",
+        "english": "Jola-Fonyi",
+        "native": "joola"
+    },
+    {
+        "code": "dyo-SN",
+        "english": "Jola-Fonyi (Senegal)",
+        "native": "joola (Senegal)"
+    },
+    {
+        "code": "dz",
+        "english": "Dzongkha",
+        "native": "རྫོང་ཁ"
+    },
+    {
+        "code": "dz-BT",
+        "english": "Dzongkha (Bhutan)",
+        "native": "རྫོང་ཁ། (འབྲུག།)"
+    },
+    {
+        "code": "ebu",
+        "english": "Embu",
+        "native": "Kĩembu"
+    },
+    {
+        "code": "ebu-KE",
+        "english": "Embu (Kenya)",
+        "native": "Kĩembu (Kenya)"
+    },
+    {
+        "code": "ee",
+        "english": "Ewe",
+        "native": "Eʋegbe"
+    },
+    {
+        "code": "ee-GH",
+        "english": "Ewe (Ghana)",
+        "native": "Eʋegbe (Ghana nutome)"
+    },
+    {
+        "code": "ee-TG",
+        "english": "Ewe (Togo)",
+        "native": "Eʋegbe (Togo nutome)"
+    },
+    {
+        "code": "el",
+        "english": "Greek",
+        "native": "Ελληνικά"
+    },
+    {
+        "code": "el-CY",
+        "english": "Greek (Cyprus)",
+        "native": "Ελληνικά (Κύπρος)"
+    },
+    {
+        "code": "el-GR",
+        "english": "Greek (Greece)",
+        "native": "Ελληνικά (Ελλάδα)"
+    },
+    {
+        "code": "en",
+        "english": "English",
+        "native": "English"
+    },
+    {
+        "code": "en-001",
+        "english": "English (world)",
+        "native": "English (world)"
+    },
+    {
+        "code": "en-150",
+        "english": "English (Europe)",
+        "native": "English (Europe)"
+    },
+    {
+        "code": "en-AE",
+        "english": "English (United Arab Emirates)",
+        "native": "English (United Arab Emirates)"
+    },
+    {
+        "code": "en-AG",
+        "english": "English (Antigua & Barbuda)",
+        "native": "English (Antigua & Barbuda)"
+    },
+    {
+        "code": "en-AI",
+        "english": "English (Anguilla)",
+        "native": "English (Anguilla)"
+    },
+    {
+        "code": "en-AS",
+        "english": "English (American Samoa)",
+        "native": "English (American Samoa)"
+    },
+    {
+        "code": "en-AT",
+        "english": "English (Austria)",
+        "native": "English (Austria)"
+    },
+    {
+        "code": "en-AU",
+        "english": "English (Australia)",
+        "native": "English (Australia)"
+    },
+    {
+        "code": "en-BB",
+        "english": "English (Barbados)",
+        "native": "English (Barbados)"
+    },
+    {
+        "code": "en-BE",
+        "english": "English (Belgium)",
+        "native": "English (Belgium)"
+    },
+    {
+        "code": "en-BI",
+        "english": "English (Burundi)",
+        "native": "English (Burundi)"
+    },
+    {
+        "code": "en-BM",
+        "english": "English (Bermuda)",
+        "native": "English (Bermuda)"
+    },
+    {
+        "code": "en-BS",
+        "english": "English (Bahamas)",
+        "native": "English (Bahamas)"
+    },
+    {
+        "code": "en-BW",
+        "english": "English (Botswana)",
+        "native": "English (Botswana)"
+    },
+    {
+        "code": "en-BZ",
+        "english": "English (Belize)",
+        "native": "English (Belize)"
+    },
+    {
+        "code": "en-CA",
+        "english": "English (Canada)",
+        "native": "English (Canada)"
+    },
+    {
+        "code": "en-CC",
+        "english": "English (Cocos [Keeling] Islands)",
+        "native": "English (Cocos [Keeling] Islands)"
+    },
+    {
+        "code": "en-CH",
+        "english": "English (Switzerland)",
+        "native": "English (Switzerland)"
+    },
+    {
+        "code": "en-CK",
+        "english": "English (Cook Islands)",
+        "native": "English (Cook Islands)"
+    },
+    {
+        "code": "en-CM",
+        "english": "English (Cameroon)",
+        "native": "English (Cameroon)"
+    },
+    {
+        "code": "en-CX",
+        "english": "English (Christmas Island)",
+        "native": "English (Christmas Island)"
+    },
+    {
+        "code": "en-CY",
+        "english": "English (Cyprus)",
+        "native": "English (Cyprus)"
+    },
+    {
+        "code": "en-DE",
+        "english": "English (Germany)",
+        "native": "English (Germany)"
+    },
+    {
+        "code": "en-DG",
+        "english": "English (Diego Garcia)",
+        "native": "English (Diego Garcia)"
+    },
+    {
+        "code": "en-DK",
+        "english": "English (Denmark)",
+        "native": "English (Denmark)"
+    },
+    {
+        "code": "en-DM",
+        "english": "English (Dominica)",
+        "native": "English (Dominica)"
+    },
+    {
+        "code": "en-ER",
+        "english": "English (Eritrea)",
+        "native": "English (Eritrea)"
+    },
+    {
+        "code": "en-FI",
+        "english": "English (Finland)",
+        "native": "English (Finland)"
+    },
+    {
+        "code": "en-FJ",
+        "english": "English (Fiji)",
+        "native": "English (Fiji)"
+    },
+    {
+        "code": "en-FK",
+        "english": "English (Falkland Islands)",
+        "native": "English (Falkland Islands)"
+    },
+    {
+        "code": "en-FM",
+        "english": "English (Micronesia)",
+        "native": "English (Micronesia)"
+    },
+    {
+        "code": "en-GB",
+        "english": "English (United Kingdom)",
+        "native": "English (United Kingdom)"
+    },
+    {
+        "code": "en-GD",
+        "english": "English (Grenada)",
+        "native": "English (Grenada)"
+    },
+    {
+        "code": "en-GG",
+        "english": "English (Guernsey)",
+        "native": "English (Guernsey)"
+    },
+    {
+        "code": "en-GH",
+        "english": "English (Ghana)",
+        "native": "English (Ghana)"
+    },
+    {
+        "code": "en-GI",
+        "english": "English (Gibraltar)",
+        "native": "English (Gibraltar)"
+    },
+    {
+        "code": "en-GM",
+        "english": "English (Gambia)",
+        "native": "English (Gambia)"
+    },
+    {
+        "code": "en-GU",
+        "english": "English (Guam)",
+        "native": "English (Guam)"
+    },
+    {
+        "code": "en-GY",
+        "english": "English (Guyana)",
+        "native": "English (Guyana)"
+    },
+    {
+        "code": "en-HK",
+        "english": "English (Hong Kong SAR China)",
+        "native": "English (Hong Kong SAR China)"
+    },
+    {
+        "code": "en-IE",
+        "english": "English (Ireland)",
+        "native": "English (Ireland)"
+    },
+    {
+        "code": "en-IL",
+        "english": "English (Israel)",
+        "native": "English (Israel)"
+    },
+    {
+        "code": "en-IM",
+        "english": "English (Isle of Man)",
+        "native": "English (Isle of Man)"
+    },
+    {
+        "code": "en-IN",
+        "english": "English (India)",
+        "native": "English (India)"
+    },
+    {
+        "code": "en-IO",
+        "english": "English (British Indian Ocean Territory)",
+        "native": "English (British Indian Ocean Territory)"
+    },
+    {
+        "code": "en-JE",
+        "english": "English (Jersey)",
+        "native": "English (Jersey)"
+    },
+    {
+        "code": "en-JM",
+        "english": "English (Jamaica)",
+        "native": "English (Jamaica)"
+    },
+    {
+        "code": "en-KE",
+        "english": "English (Kenya)",
+        "native": "English (Kenya)"
+    },
+    {
+        "code": "en-KI",
+        "english": "English (Kiribati)",
+        "native": "English (Kiribati)"
+    },
+    {
+        "code": "en-KN",
+        "english": "English (St. Kitts & Nevis)",
+        "native": "English (St Kitts & Nevis)"
+    },
+    {
+        "code": "en-KY",
+        "english": "English (Cayman Islands)",
+        "native": "English (Cayman Islands)"
+    },
+    {
+        "code": "en-LC",
+        "english": "English (St. Lucia)",
+        "native": "English (St Lucia)"
+    },
+    {
+        "code": "en-LR",
+        "english": "English (Liberia)",
+        "native": "English (Liberia)"
+    },
+    {
+        "code": "en-LS",
+        "english": "English (Lesotho)",
+        "native": "English (Lesotho)"
+    },
+    {
+        "code": "en-MG",
+        "english": "English (Madagascar)",
+        "native": "English (Madagascar)"
+    },
+    {
+        "code": "en-MH",
+        "english": "English (Marshall Islands)",
+        "native": "English (Marshall Islands)"
+    },
+    {
+        "code": "en-MO",
+        "english": "English (Macao SAR China)",
+        "native": "English (Macao SAR China)"
+    },
+    {
+        "code": "en-MP",
+        "english": "English (Northern Mariana Islands)",
+        "native": "English (Northern Mariana Islands)"
+    },
+    {
+        "code": "en-MS",
+        "english": "English (Montserrat)",
+        "native": "English (Montserrat)"
+    },
+    {
+        "code": "en-MT",
+        "english": "English (Malta)",
+        "native": "English (Malta)"
+    },
+    {
+        "code": "en-MU",
+        "english": "English (Mauritius)",
+        "native": "English (Mauritius)"
+    },
+    {
+        "code": "en-MV",
+        "english": "English (Maldives)",
+        "native": "English (Maldives)"
+    },
+    {
+        "code": "en-MW",
+        "english": "English (Malawi)",
+        "native": "English (Malawi)"
+    },
+    {
+        "code": "en-MY",
+        "english": "English (Malaysia)",
+        "native": "English (Malaysia)"
+    },
+    {
+        "code": "en-NA",
+        "english": "English (Namibia)",
+        "native": "English (Namibia)"
+    },
+    {
+        "code": "en-NF",
+        "english": "English (Norfolk Island)",
+        "native": "English (Norfolk Island)"
+    },
+    {
+        "code": "en-NG",
+        "english": "English (Nigeria)",
+        "native": "English (Nigeria)"
+    },
+    {
+        "code": "en-NL",
+        "english": "English (Netherlands)",
+        "native": "English (Netherlands)"
+    },
+    {
+        "code": "en-NR",
+        "english": "English (Nauru)",
+        "native": "English (Nauru)"
+    },
+    {
+        "code": "en-NU",
+        "english": "English (Niue)",
+        "native": "English (Niue)"
+    },
+    {
+        "code": "en-NZ",
+        "english": "English (New Zealand)",
+        "native": "English (New Zealand)"
+    },
+    {
+        "code": "en-PG",
+        "english": "English (Papua New Guinea)",
+        "native": "English (Papua New Guinea)"
+    },
+    {
+        "code": "en-PH",
+        "english": "English (Philippines)",
+        "native": "English (Philippines)"
+    },
+    {
+        "code": "en-PK",
+        "english": "English (Pakistan)",
+        "native": "English (Pakistan)"
+    },
+    {
+        "code": "en-PN",
+        "english": "English (Pitcairn Islands)",
+        "native": "English (Pitcairn Islands)"
+    },
+    {
+        "code": "en-PR",
+        "english": "English (Puerto Rico)",
+        "native": "English (Puerto Rico)"
+    },
+    {
+        "code": "en-PW",
+        "english": "English (Palau)",
+        "native": "English (Palau)"
+    },
+    {
+        "code": "en-RW",
+        "english": "English (Rwanda)",
+        "native": "English (Rwanda)"
+    },
+    {
+        "code": "en-SB",
+        "english": "English (Solomon Islands)",
+        "native": "English (Solomon Islands)"
+    },
+    {
+        "code": "en-SC",
+        "english": "English (Seychelles)",
+        "native": "English (Seychelles)"
+    },
+    {
+        "code": "en-SD",
+        "english": "English (Sudan)",
+        "native": "English (Sudan)"
+    },
+    {
+        "code": "en-SE",
+        "english": "English (Sweden)",
+        "native": "English (Sweden)"
+    },
+    {
+        "code": "en-SG",
+        "english": "English (Singapore)",
+        "native": "English (Singapore)"
+    },
+    {
+        "code": "en-SH",
+        "english": "English (St. Helena)",
+        "native": "English (St Helena)"
+    },
+    {
+        "code": "en-SI",
+        "english": "English (Slovenia)",
+        "native": "English (Slovenia)"
+    },
+    {
+        "code": "en-SL",
+        "english": "English (Sierra Leone)",
+        "native": "English (Sierra Leone)"
+    },
+    {
+        "code": "en-SS",
+        "english": "English (South Sudan)",
+        "native": "English (South Sudan)"
+    },
+    {
+        "code": "en-SX",
+        "english": "English (Sint Maarten)",
+        "native": "English (Sint Maarten)"
+    },
+    {
+        "code": "en-SZ",
+        "english": "English (Eswatini)",
+        "native": "English (Eswatini)"
+    },
+    {
+        "code": "en-TC",
+        "english": "English (Turks & Caicos Islands)",
+        "native": "English (Turks & Caicos Islands)"
+    },
+    {
+        "code": "en-TK",
+        "english": "English (Tokelau)",
+        "native": "English (Tokelau)"
+    },
+    {
+        "code": "en-TO",
+        "english": "English (Tonga)",
+        "native": "English (Tonga)"
+    },
+    {
+        "code": "en-TT",
+        "english": "English (Trinidad & Tobago)",
+        "native": "English (Trinidad & Tobago)"
+    },
+    {
+        "code": "en-TV",
+        "english": "English (Tuvalu)",
+        "native": "English (Tuvalu)"
+    },
+    {
+        "code": "en-TZ",
+        "english": "English (Tanzania)",
+        "native": "English (Tanzania)"
+    },
+    {
+        "code": "en-UG",
+        "english": "English (Uganda)",
+        "native": "English (Uganda)"
+    },
+    {
+        "code": "en-UM",
+        "english": "English (U.S. Outlying Islands)",
+        "native": "English (U.S. Outlying Islands)"
+    },
+    {
+        "code": "en-US",
+        "english": "English (United States)",
+        "native": "English (United States)"
+    },
+    {
+        "code": "en-US-POSIX",
+        "english": "English (United States), (Computer)",
+        "native": "English (United States, Computer)"
+    },
+    {
+        "code": "en-VC",
+        "english": "English (St. Vincent & Grenadines)",
+        "native": "English (St Vincent & the Grenadines)"
+    },
+    {
+        "code": "en-VG",
+        "english": "English (British Virgin Islands)",
+        "native": "English (British Virgin Islands)"
+    },
+    {
+        "code": "en-VI",
+        "english": "English (U.S. Virgin Islands)",
+        "native": "English (U.S. Virgin Islands)"
+    },
+    {
+        "code": "en-VU",
+        "english": "English (Vanuatu)",
+        "native": "English (Vanuatu)"
+    },
+    {
+        "code": "en-WS",
+        "english": "English (Samoa)",
+        "native": "English (Samoa)"
+    },
+    {
+        "code": "en-ZA",
+        "english": "English (South Africa)",
+        "native": "English (South Africa)"
+    },
+    {
+        "code": "en-ZM",
+        "english": "English (Zambia)",
+        "native": "English (Zambia)"
+    },
+    {
+        "code": "en-ZW",
+        "english": "English (Zimbabwe)",
+        "native": "English (Zimbabwe)"
+    },
+    {
+        "code": "eo",
+        "english": "Esperanto",
+        "native": "esperanto"
+    },
+    {
+        "code": "eo-001",
+        "english": "Esperanto (world)",
+        "native": "esperanto (Mondo)"
+    },
+    {
+        "code": "es",
+        "english": "Spanish",
+        "native": "español"
+    },
+    {
+        "code": "es-419",
+        "english": "Spanish (Latin America)",
+        "native": "español (Latinoamérica)"
+    },
+    {
+        "code": "es-AR",
+        "english": "Spanish (Argentina)",
+        "native": "español (Argentina)"
+    },
+    {
+        "code": "es-BO",
+        "english": "Spanish (Bolivia)",
+        "native": "español (Bolivia)"
+    },
+    {
+        "code": "es-BR",
+        "english": "Spanish (Brazil)",
+        "native": "español (Brasil)"
+    },
+    {
+        "code": "es-BZ",
+        "english": "Spanish (Belize)",
+        "native": "español (Belice)"
+    },
+    {
+        "code": "es-CL",
+        "english": "Spanish (Chile)",
+        "native": "español (Chile)"
+    },
+    {
+        "code": "es-CO",
+        "english": "Spanish (Colombia)",
+        "native": "español (Colombia)"
+    },
+    {
+        "code": "es-CR",
+        "english": "Spanish (Costa Rica)",
+        "native": "español (Costa Rica)"
+    },
+    {
+        "code": "es-CU",
+        "english": "Spanish (Cuba)",
+        "native": "español (Cuba)"
+    },
+    {
+        "code": "es-DO",
+        "english": "Spanish (Dominican Republic)",
+        "native": "español (República Dominicana)"
+    },
+    {
+        "code": "es-EA",
+        "english": "Spanish (Ceuta & Melilla)",
+        "native": "español (Ceuta y Melilla)"
+    },
+    {
+        "code": "es-EC",
+        "english": "Spanish (Ecuador)",
+        "native": "español (Ecuador)"
+    },
+    {
+        "code": "es-ES",
+        "english": "Spanish (Spain)",
+        "native": "español (España)"
+    },
+    {
+        "code": "es-GQ",
+        "english": "Spanish (Equatorial Guinea)",
+        "native": "español (Guinea Ecuatorial)"
+    },
+    {
+        "code": "es-GT",
+        "english": "Spanish (Guatemala)",
+        "native": "español (Guatemala)"
+    },
+    {
+        "code": "es-HN",
+        "english": "Spanish (Honduras)",
+        "native": "español (Honduras)"
+    },
+    {
+        "code": "es-IC",
+        "english": "Spanish (Canary Islands)",
+        "native": "español (Canarias)"
+    },
+    {
+        "code": "es-MX",
+        "english": "Spanish (Mexico)",
+        "native": "español (México)"
+    },
+    {
+        "code": "es-NI",
+        "english": "Spanish (Nicaragua)",
+        "native": "español (Nicaragua)"
+    },
+    {
+        "code": "es-PA",
+        "english": "Spanish (Panama)",
+        "native": "español (Panamá)"
+    },
+    {
+        "code": "es-PE",
+        "english": "Spanish (Peru)",
+        "native": "español (Perú)"
+    },
+    {
+        "code": "es-PH",
+        "english": "Spanish (Philippines)",
+        "native": "español (Filipinas)"
+    },
+    {
+        "code": "es-PR",
+        "english": "Spanish (Puerto Rico)",
+        "native": "español (Puerto Rico)"
+    },
+    {
+        "code": "es-PY",
+        "english": "Spanish (Paraguay)",
+        "native": "español (Paraguay)"
+    },
+    {
+        "code": "es-SV",
+        "english": "Spanish (El Salvador)",
+        "native": "español (El Salvador)"
+    },
+    {
+        "code": "es-US",
+        "english": "Spanish (United States)",
+        "native": "español (Estados Unidos)"
+    },
+    {
+        "code": "es-UY",
+        "english": "Spanish (Uruguay)",
+        "native": "español (Uruguay)"
+    },
+    {
+        "code": "es-VE",
+        "english": "Spanish (Venezuela)",
+        "native": "español (Venezuela)"
+    },
+    {
+        "code": "et",
+        "english": "Estonian",
+        "native": "eesti"
+    },
+    {
+        "code": "et-EE",
+        "english": "Estonian (Estonia)",
+        "native": "eesti (Eesti)"
+    },
+    {
+        "code": "eu",
+        "english": "Basque",
+        "native": "euskara"
+    },
+    {
+        "code": "eu-ES",
+        "english": "Basque (Spain)",
+        "native": "euskara (Espainia)"
+    },
+    {
+        "code": "ewo",
+        "english": "Ewondo",
+        "native": "ewondo"
+    },
+    {
+        "code": "ewo-CM",
+        "english": "Ewondo (Cameroon)",
+        "native": "ewondo (Kamərún)"
+    },
+    {
+        "code": "fa",
+        "english": "Persian",
+        "native": "فارسی"
+    },
+    {
+        "code": "fa-AF",
+        "english": "Persian (Afghanistan)",
+        "native": "فارسی (افغانستان)"
+    },
+    {
+        "code": "fa-IR",
+        "english": "Persian (Iran)",
+        "native": "فارسی (ایران)"
+    },
+    {
+        "code": "ff",
+        "english": "Fula",
+        "native": "Pulaar"
+    },
+    {
+        "code": "ff-Adlm",
+        "english": "Fula (Adlam)",
+        "native": "𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃)"
+    },
+    {
+        "code": "ff-Adlm-BF",
+        "english": "Fula (Adlam), (Burkina Faso)",
+        "native": "𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤄𞤵𞤪𞤳𞤭𞤲𞤢 𞤊𞤢𞤧𞤮𞥅)"
+    },
+    {
+        "code": "ff-Adlm-CM",
+        "english": "Fula (Adlam), (Cameroon)",
+        "native": "𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤑𞤢𞤥𞤢𞤪𞤵𞥅𞤲)"
+    },
+    {
+        "code": "ff-Adlm-GH",
+        "english": "Fula (Adlam), (Ghana)",
+        "native": "𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤘𞤢𞤲𞤢)"
+    },
+    {
+        "code": "ff-Adlm-GM",
+        "english": "Fula (Adlam), (Gambia)",
+        "native": "𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤘𞤢𞤥𞤦𞤭𞤴𞤢)"
+    },
+    {
+        "code": "ff-Adlm-GN",
+        "english": "Fula (Adlam), (Guinea)",
+        "native": "𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤘𞤭𞤲𞤫)"
+    },
+    {
+        "code": "ff-Adlm-GW",
+        "english": "Fula (Adlam), (Guinea-Bissau)",
+        "native": "𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤘𞤭𞤲𞤫-𞤄𞤭𞤧𞤢𞤱𞤮𞥅)"
+    },
+    {
+        "code": "ff-Adlm-LR",
+        "english": "Fula (Adlam), (Liberia)",
+        "native": "𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤂𞤢𞤦𞤭𞤪𞤭𞤴𞤢𞥄)"
+    },
+    {
+        "code": "ff-Adlm-MR",
+        "english": "Fula (Adlam), (Mauritania)",
+        "native": "𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤃𞤮𞤪𞤼𞤢𞤲𞤭𞥅)"
+    },
+    {
+        "code": "ff-Adlm-NE",
+        "english": "Fula (Adlam), (Niger)",
+        "native": "𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤐𞤭𞥅𞤶𞤫𞤪)"
+    },
+    {
+        "code": "ff-Adlm-NG",
+        "english": "Fula (Adlam), (Nigeria)",
+        "native": "𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤐𞤢𞤶𞤫𞤪𞤭𞤴𞤢𞥄)"
+    },
+    {
+        "code": "ff-Adlm-SL",
+        "english": "Fula (Adlam), (Sierra Leone)",
+        "native": "𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤅𞤢𞤪𞤢𞤤𞤮𞤲)"
+    },
+    {
+        "code": "ff-Adlm-SN",
+        "english": "Fula (Adlam), (Senegal)",
+        "native": "𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤅𞤫𞤲𞤫𞤺𞤢𞥄𞤤)"
+    },
+    {
+        "code": "ff-Latn",
+        "english": "Fula (Latin)",
+        "native": "Fula (Latin)"
+    },
+    {
+        "code": "ff-Latn-BF",
+        "english": "Fula (Latin), (Burkina Faso)",
+        "native": "Fula (Latin, Burkina Faso)"
+    },
+    {
+        "code": "ff-Latn-CM",
+        "english": "Fula (Latin), (Cameroon)",
+        "native": "Fula (Latin, Cameroon)"
+    },
+    {
+        "code": "ff-Latn-GH",
+        "english": "Fula (Latin), (Ghana)",
+        "native": "Fula (Latin, Ghana)"
+    },
+    {
+        "code": "ff-Latn-GM",
+        "english": "Fula (Latin), (Gambia)",
+        "native": "Fula (Latin, Gambia)"
+    },
+    {
+        "code": "ff-Latn-GN",
+        "english": "Fula (Latin), (Guinea)",
+        "native": "Fula (Latin, Guinea)"
+    },
+    {
+        "code": "ff-Latn-GW",
+        "english": "Fula (Latin), (Guinea-Bissau)",
+        "native": "Fula (Latin, Guinea-Bissau)"
+    },
+    {
+        "code": "ff-Latn-LR",
+        "english": "Fula (Latin), (Liberia)",
+        "native": "Fula (Latin, Liberia)"
+    },
+    {
+        "code": "ff-Latn-MR",
+        "english": "Fula (Latin), (Mauritania)",
+        "native": "Fula (Latin, Mauritania)"
+    },
+    {
+        "code": "ff-Latn-NE",
+        "english": "Fula (Latin), (Niger)",
+        "native": "Fula (Latin, Niger)"
+    },
+    {
+        "code": "ff-Latn-NG",
+        "english": "Fula (Latin), (Nigeria)",
+        "native": "Fula (Latin, Nigeria)"
+    },
+    {
+        "code": "ff-Latn-SL",
+        "english": "Fula (Latin), (Sierra Leone)",
+        "native": "Fula (Latin, Sierra Leone)"
+    },
+    {
+        "code": "ff-Latn-SN",
+        "english": "Fula (Latin), (Senegal)",
+        "native": "Fula (Latin, Senegal)"
+    },
+    {
+        "code": "fi",
+        "english": "Finnish",
+        "native": "suomi"
+    },
+    {
+        "code": "fi-FI",
+        "english": "Finnish (Finland)",
+        "native": "suomi (Suomi)"
+    },
+    {
+        "code": "fil",
+        "english": "Filipino",
+        "native": "Filipino"
+    },
+    {
+        "code": "fil-PH",
+        "english": "Filipino (Philippines)",
+        "native": "Filipino (Pilipinas)"
+    },
+    {
+        "code": "fo",
+        "english": "Faroese",
+        "native": "føroyskt"
+    },
+    {
+        "code": "fo-DK",
+        "english": "Faroese (Denmark)",
+        "native": "føroyskt (Danmark)"
+    },
+    {
+        "code": "fo-FO",
+        "english": "Faroese (Faroe Islands)",
+        "native": "føroyskt (Føroyar)"
+    },
+    {
+        "code": "fr",
+        "english": "French",
+        "native": "français"
+    },
+    {
+        "code": "fr-BE",
+        "english": "French (Belgium)",
+        "native": "français (Belgique)"
+    },
+    {
+        "code": "fr-BF",
+        "english": "French (Burkina Faso)",
+        "native": "français (Burkina Faso)"
+    },
+    {
+        "code": "fr-BI",
+        "english": "French (Burundi)",
+        "native": "français (Burundi)"
+    },
+    {
+        "code": "fr-BJ",
+        "english": "French (Benin)",
+        "native": "français (Bénin)"
+    },
+    {
+        "code": "fr-BL",
+        "english": "French (St. Barthélemy)",
+        "native": "français (Saint-Barthélemy)"
+    },
+    {
+        "code": "fr-CA",
+        "english": "French (Canada)",
+        "native": "français (Canada)"
+    },
+    {
+        "code": "fr-CD",
+        "english": "French (Congo - Kinshasa)",
+        "native": "français (Congo-Kinshasa)"
+    },
+    {
+        "code": "fr-CF",
+        "english": "French (Central African Republic)",
+        "native": "français (République centrafricaine)"
+    },
+    {
+        "code": "fr-CG",
+        "english": "French (Congo - Brazzaville)",
+        "native": "français (Congo-Brazzaville)"
+    },
+    {
+        "code": "fr-CH",
+        "english": "French (Switzerland)",
+        "native": "français (Suisse)"
+    },
+    {
+        "code": "fr-CI",
+        "english": "French (Côte d’Ivoire)",
+        "native": "français (Côte d’Ivoire)"
+    },
+    {
+        "code": "fr-CM",
+        "english": "French (Cameroon)",
+        "native": "français (Cameroun)"
+    },
+    {
+        "code": "fr-DJ",
+        "english": "French (Djibouti)",
+        "native": "français (Djibouti)"
+    },
+    {
+        "code": "fr-DZ",
+        "english": "French (Algeria)",
+        "native": "français (Algérie)"
+    },
+    {
+        "code": "fr-FR",
+        "english": "French (France)",
+        "native": "français (France)"
+    },
+    {
+        "code": "fr-GA",
+        "english": "French (Gabon)",
+        "native": "français (Gabon)"
+    },
+    {
+        "code": "fr-GF",
+        "english": "French (French Guiana)",
+        "native": "français (Guyane française)"
+    },
+    {
+        "code": "fr-GN",
+        "english": "French (Guinea)",
+        "native": "français (Guinée)"
+    },
+    {
+        "code": "fr-GP",
+        "english": "French (Guadeloupe)",
+        "native": "français (Guadeloupe)"
+    },
+    {
+        "code": "fr-GQ",
+        "english": "French (Equatorial Guinea)",
+        "native": "français (Guinée équatoriale)"
+    },
+    {
+        "code": "fr-HT",
+        "english": "French (Haiti)",
+        "native": "français (Haïti)"
+    },
+    {
+        "code": "fr-KM",
+        "english": "French (Comoros)",
+        "native": "français (Comores)"
+    },
+    {
+        "code": "fr-LU",
+        "english": "French (Luxembourg)",
+        "native": "français (Luxembourg)"
+    },
+    {
+        "code": "fr-MA",
+        "english": "French (Morocco)",
+        "native": "français (Maroc)"
+    },
+    {
+        "code": "fr-MC",
+        "english": "French (Monaco)",
+        "native": "français (Monaco)"
+    },
+    {
+        "code": "fr-MF",
+        "english": "French (St. Martin)",
+        "native": "français (Saint-Martin)"
+    },
+    {
+        "code": "fr-MG",
+        "english": "French (Madagascar)",
+        "native": "français (Madagascar)"
+    },
+    {
+        "code": "fr-ML",
+        "english": "French (Mali)",
+        "native": "français (Mali)"
+    },
+    {
+        "code": "fr-MQ",
+        "english": "French (Martinique)",
+        "native": "français (Martinique)"
+    },
+    {
+        "code": "fr-MR",
+        "english": "French (Mauritania)",
+        "native": "français (Mauritanie)"
+    },
+    {
+        "code": "fr-MU",
+        "english": "French (Mauritius)",
+        "native": "français (Maurice)"
+    },
+    {
+        "code": "fr-NC",
+        "english": "French (New Caledonia)",
+        "native": "français (Nouvelle-Calédonie)"
+    },
+    {
+        "code": "fr-NE",
+        "english": "French (Niger)",
+        "native": "français (Niger)"
+    },
+    {
+        "code": "fr-PF",
+        "english": "French (French Polynesia)",
+        "native": "français (Polynésie française)"
+    },
+    {
+        "code": "fr-PM",
+        "english": "French (St. Pierre & Miquelon)",
+        "native": "français (Saint-Pierre-et-Miquelon)"
+    },
+    {
+        "code": "fr-RE",
+        "english": "French (Réunion)",
+        "native": "français (La Réunion)"
+    },
+    {
+        "code": "fr-RW",
+        "english": "French (Rwanda)",
+        "native": "français (Rwanda)"
+    },
+    {
+        "code": "fr-SC",
+        "english": "French (Seychelles)",
+        "native": "français (Seychelles)"
+    },
+    {
+        "code": "fr-SN",
+        "english": "French (Senegal)",
+        "native": "français (Sénégal)"
+    },
+    {
+        "code": "fr-SY",
+        "english": "French (Syria)",
+        "native": "français (Syrie)"
+    },
+    {
+        "code": "fr-TD",
+        "english": "French (Chad)",
+        "native": "français (Tchad)"
+    },
+    {
+        "code": "fr-TG",
+        "english": "French (Togo)",
+        "native": "français (Togo)"
+    },
+    {
+        "code": "fr-TN",
+        "english": "French (Tunisia)",
+        "native": "français (Tunisie)"
+    },
+    {
+        "code": "fr-VU",
+        "english": "French (Vanuatu)",
+        "native": "français (Vanuatu)"
+    },
+    {
+        "code": "fr-WF",
+        "english": "French (Wallis & Futuna)",
+        "native": "français (Wallis-et-Futuna)"
+    },
+    {
+        "code": "fr-YT",
+        "english": "French (Mayotte)",
+        "native": "français (Mayotte)"
+    },
+    {
+        "code": "fur",
+        "english": "Friulian",
+        "native": "furlan"
+    },
+    {
+        "code": "fur-IT",
+        "english": "Friulian (Italy)",
+        "native": "furlan (Italie)"
+    },
+    {
+        "code": "fy",
+        "english": "Western Frisian",
+        "native": "Frysk"
+    },
+    {
+        "code": "fy-NL",
+        "english": "Western Frisian (Netherlands)",
+        "native": "Frysk (Nederlân)"
+    },
+    {
+        "code": "ga",
+        "english": "Irish",
+        "native": "Gaeilge"
+    },
+    {
+        "code": "ga-GB",
+        "english": "Irish (United Kingdom)",
+        "native": "Gaeilge (an Ríocht Aontaithe)"
+    },
+    {
+        "code": "ga-IE",
+        "english": "Irish (Ireland)",
+        "native": "Gaeilge (Éire)"
+    },
+    {
+        "code": "gd",
+        "english": "Scottish Gaelic",
+        "native": "Gàidhlig"
+    },
+    {
+        "code": "gd-GB",
+        "english": "Scottish Gaelic (United Kingdom)",
+        "native": "Gàidhlig (An Rìoghachd Aonaichte)"
+    },
+    {
+        "code": "gl",
+        "english": "Galician",
+        "native": "galego"
+    },
+    {
+        "code": "gl-ES",
+        "english": "Galician (Spain)",
+        "native": "galego (España)"
+    },
+    {
+        "code": "gsw",
+        "english": "Swiss German",
+        "native": "Schwiizertüütsch"
+    },
+    {
+        "code": "gsw-CH",
+        "english": "Swiss German (Switzerland)",
+        "native": "Schwiizertüütsch (Schwiiz)"
+    },
+    {
+        "code": "gsw-FR",
+        "english": "Swiss German (France)",
+        "native": "Schwiizertüütsch (Frankriich)"
+    },
+    {
+        "code": "gsw-LI",
+        "english": "Swiss German (Liechtenstein)",
+        "native": "Schwiizertüütsch (Liächteschtäi)"
+    },
+    {
+        "code": "gu",
+        "english": "Gujarati",
+        "native": "ગુજરાતી"
+    },
+    {
+        "code": "gu-IN",
+        "english": "Gujarati (India)",
+        "native": "ગુજરાતી (ભારત)"
+    },
+    {
+        "code": "guz",
+        "english": "Gusii",
+        "native": "Ekegusii"
+    },
+    {
+        "code": "guz-KE",
+        "english": "Gusii (Kenya)",
+        "native": "Ekegusii (Kenya)"
+    },
+    {
+        "code": "gv",
+        "english": "Manx",
+        "native": "Gaelg"
+    },
+    {
+        "code": "gv-IM",
+        "english": "Manx (Isle of Man)",
+        "native": "Gaelg (Ellan Vannin)"
+    },
+    {
+        "code": "ha",
+        "english": "Hausa",
+        "native": "Hausa"
+    },
+    {
+        "code": "ha-GH",
+        "english": "Hausa (Ghana)",
+        "native": "Hausa (Gana)"
+    },
+    {
+        "code": "ha-NE",
+        "english": "Hausa (Niger)",
+        "native": "Hausa (Nijar)"
+    },
+    {
+        "code": "ha-NG",
+        "english": "Hausa (Nigeria)",
+        "native": "Hausa (Nijeriya)"
+    },
+    {
+        "code": "haw",
+        "english": "Hawaiian",
+        "native": "ʻŌlelo Hawaiʻi"
+    },
+    {
+        "code": "haw-US",
+        "english": "Hawaiian (United States)",
+        "native": "ʻŌlelo Hawaiʻi (ʻAmelika Hui Pū ʻIa)"
+    },
+    {
+        "code": "he",
+        "english": "Hebrew",
+        "native": "עברית"
+    },
+    {
+        "code": "he-IL",
+        "english": "Hebrew (Israel)",
+        "native": "עברית (ישראל)"
+    },
+    {
+        "code": "hi",
+        "english": "Hindi",
+        "native": "हिन्दी"
+    },
+    {
+        "code": "hi-IN",
+        "english": "Hindi (India)",
+        "native": "हिन्दी (भारत)"
+    },
+    {
+        "code": "hi-Latn",
+        "english": "Hindi (Latin)",
+        "native": "Hindi (Latin)"
+    },
+    {
+        "code": "hi-Latn-IN",
+        "english": "Hindi (Latin), (India)",
+        "native": "Hindi (Latin, India)"
+    },
+    {
+        "code": "hr",
+        "english": "Croatian",
+        "native": "hrvatski"
+    },
+    {
+        "code": "hr-BA",
+        "english": "Croatian (Bosnia & Herzegovina)",
+        "native": "hrvatski (Bosna i Hercegovina)"
+    },
+    {
+        "code": "hr-HR",
+        "english": "Croatian (Croatia)",
+        "native": "hrvatski (Hrvatska)"
+    },
+    {
+        "code": "hsb",
+        "english": "Upper Sorbian",
+        "native": "hornjoserbšćina"
+    },
+    {
+        "code": "hsb-DE",
+        "english": "Upper Sorbian (Germany)",
+        "native": "hornjoserbšćina (Němska)"
+    },
+    {
+        "code": "hu",
+        "english": "Hungarian",
+        "native": "magyar"
+    },
+    {
+        "code": "hu-HU",
+        "english": "Hungarian (Hungary)",
+        "native": "magyar (Magyarország)"
+    },
+    {
+        "code": "hy",
+        "english": "Armenian",
+        "native": "հայերեն"
+    },
+    {
+        "code": "hy-AM",
+        "english": "Armenian (Armenia)",
+        "native": "հայերեն (Հայաստան)"
+    },
+    {
+        "code": "ia",
+        "english": "Interlingua",
+        "native": "interlingua"
+    },
+    {
+        "code": "ia-001",
+        "english": "Interlingua (world)",
+        "native": "interlingua (Mundo)"
+    },
+    {
+        "code": "id",
+        "english": "Indonesian",
+        "native": "Indonesia"
+    },
+    {
+        "code": "id-ID",
+        "english": "Indonesian (Indonesia)",
+        "native": "Indonesia (Indonesia)"
+    },
+    {
+        "code": "ig",
+        "english": "Igbo",
+        "native": "Igbo"
+    },
+    {
+        "code": "ig-NG",
+        "english": "Igbo (Nigeria)",
+        "native": "Igbo (Naịjịrịa)"
+    },
+    {
+        "code": "ii",
+        "english": "Sichuan Yi",
+        "native": "ꆈꌠꉙ"
+    },
+    {
+        "code": "ii-CN",
+        "english": "Sichuan Yi (China)",
+        "native": "ꆈꌠꉙ (ꍏꇩ)"
+    },
+    {
+        "code": "is",
+        "english": "Icelandic",
+        "native": "íslenska"
+    },
+    {
+        "code": "is-IS",
+        "english": "Icelandic (Iceland)",
+        "native": "íslenska (Ísland)"
+    },
+    {
+        "code": "it",
+        "english": "Italian",
+        "native": "italiano"
+    },
+    {
+        "code": "it-CH",
+        "english": "Italian (Switzerland)",
+        "native": "italiano (Svizzera)"
+    },
+    {
+        "code": "it-IT",
+        "english": "Italian (Italy)",
+        "native": "italiano (Italia)"
+    },
+    {
+        "code": "it-SM",
+        "english": "Italian (San Marino)",
+        "native": "italiano (San Marino)"
+    },
+    {
+        "code": "it-VA",
+        "english": "Italian (Vatican City)",
+        "native": "italiano (Città del Vaticano)"
+    },
+    {
+        "code": "ja",
+        "english": "Japanese",
+        "native": "日本語"
+    },
+    {
+        "code": "ja-JP",
+        "english": "Japanese (Japan)",
+        "native": "日本語 (日本)"
+    },
+    {
+        "code": "jgo",
+        "english": "Ngomba",
+        "native": "Ndaꞌa"
+    },
+    {
+        "code": "jgo-CM",
+        "english": "Ngomba (Cameroon)",
+        "native": "Ndaꞌa (Kamɛlûn)"
+    },
+    {
+        "code": "jmc",
+        "english": "Machame",
+        "native": "Kimachame"
+    },
+    {
+        "code": "jmc-TZ",
+        "english": "Machame (Tanzania)",
+        "native": "Kimachame (Tanzania)"
+    },
+    {
+        "code": "jv",
+        "english": "Javanese",
+        "native": "Jawa"
+    },
+    {
+        "code": "jv-ID",
+        "english": "Javanese (Indonesia)",
+        "native": "Jawa (Indonésia)"
+    },
+    {
+        "code": "ka",
+        "english": "Georgian",
+        "native": "ქართული"
+    },
+    {
+        "code": "ka-GE",
+        "english": "Georgian (Georgia)",
+        "native": "ქართული (საქართველო)"
+    },
+    {
+        "code": "kab",
+        "english": "Kabyle",
+        "native": "Taqbaylit"
+    },
+    {
+        "code": "kab-DZ",
+        "english": "Kabyle (Algeria)",
+        "native": "Taqbaylit (Lezzayer)"
+    },
+    {
+        "code": "kam",
+        "english": "Kamba",
+        "native": "Kikamba"
+    },
+    {
+        "code": "kam-KE",
+        "english": "Kamba (Kenya)",
+        "native": "Kikamba (Kenya)"
+    },
+    {
+        "code": "kde",
+        "english": "Makonde",
+        "native": "Chimakonde"
+    },
+    {
+        "code": "kde-TZ",
+        "english": "Makonde (Tanzania)",
+        "native": "Chimakonde (Tanzania)"
+    },
+    {
+        "code": "kea",
+        "english": "Kabuverdianu",
+        "native": "kabuverdianu"
+    },
+    {
+        "code": "kea-CV",
+        "english": "Kabuverdianu (Cape Verde)",
+        "native": "kabuverdianu (Kabu Verdi)"
+    },
+    {
+        "code": "kgp",
+        "english": "Kaingang",
+        "native": "kanhgág"
+    },
+    {
+        "code": "kgp-BR",
+        "english": "Kaingang (Brazil)",
+        "native": "kanhgág (Mrasir)"
+    },
+    {
+        "code": "khq",
+        "english": "Koyra Chiini",
+        "native": "Koyra ciini"
+    },
+    {
+        "code": "khq-ML",
+        "english": "Koyra Chiini (Mali)",
+        "native": "Koyra ciini (Maali)"
+    },
+    {
+        "code": "ki",
+        "english": "Kikuyu",
+        "native": "Gikuyu"
+    },
+    {
+        "code": "ki-KE",
+        "english": "Kikuyu (Kenya)",
+        "native": "Gikuyu (Kenya)"
+    },
+    {
+        "code": "kk",
+        "english": "Kazakh",
+        "native": "қазақ тілі"
+    },
+    {
+        "code": "kk-KZ",
+        "english": "Kazakh (Kazakhstan)",
+        "native": "қазақ тілі (Қазақстан)"
+    },
+    {
+        "code": "kkj",
+        "english": "Kako",
+        "native": "kakɔ"
+    },
+    {
+        "code": "kkj-CM",
+        "english": "Kako (Cameroon)",
+        "native": "kakɔ (Kamɛrun)"
+    },
+    {
+        "code": "kl",
+        "english": "Kalaallisut",
+        "native": "kalaallisut"
+    },
+    {
+        "code": "kl-GL",
+        "english": "Kalaallisut (Greenland)",
+        "native": "kalaallisut (Kalaallit Nunaat)"
+    },
+    {
+        "code": "kln",
+        "english": "Kalenjin",
+        "native": "Kalenjin"
+    },
+    {
+        "code": "kln-KE",
+        "english": "Kalenjin (Kenya)",
+        "native": "Kalenjin (Emetab Kenya)"
+    },
+    {
+        "code": "km",
+        "english": "Khmer",
+        "native": "ខ្មែរ"
+    },
+    {
+        "code": "km-KH",
+        "english": "Khmer (Cambodia)",
+        "native": "ខ្មែរ (កម្ពុជា)"
+    },
+    {
+        "code": "kn",
+        "english": "Kannada",
+        "native": "ಕನ್ನಡ"
+    },
+    {
+        "code": "kn-IN",
+        "english": "Kannada (India)",
+        "native": "ಕನ್ನಡ (ಭಾರತ)"
+    },
+    {
+        "code": "ko",
+        "english": "Korean",
+        "native": "한국어"
+    },
+    {
+        "code": "ko-KP",
+        "english": "Korean (North Korea)",
+        "native": "한국어(조선민주주의인민공화국)"
+    },
+    {
+        "code": "ko-KR",
+        "english": "Korean (South Korea)",
+        "native": "한국어(대한민국)"
+    },
+    {
+        "code": "kok",
+        "english": "Konkani",
+        "native": "कोंकणी"
+    },
+    {
+        "code": "kok-IN",
+        "english": "Konkani (India)",
+        "native": "कोंकणी (भारत)"
+    },
+    {
+        "code": "ks",
+        "english": "Kashmiri",
+        "native": "کٲشُر"
+    },
+    {
+        "code": "ks-Arab",
+        "english": "Kashmiri (Arabic)",
+        "native": "کٲشُر (عربی)"
+    },
+    {
+        "code": "ks-Arab-IN",
+        "english": "Kashmiri (Arabic), (India)",
+        "native": "کٲشُر (عربی, ہِندوستان)"
+    },
+    {
+        "code": "ks-Deva",
+        "english": "Kashmiri (Devanagari)",
+        "native": "कॉशुर (देवनागरी)"
+    },
+    {
+        "code": "ks-Deva-IN",
+        "english": "Kashmiri (Devanagari), (India)",
+        "native": "कॉशुर (देवनागरी, हिंदोस्तान)"
+    },
+    {
+        "code": "ksb",
+        "english": "Shambala",
+        "native": "Kishambaa"
+    },
+    {
+        "code": "ksb-TZ",
+        "english": "Shambala (Tanzania)",
+        "native": "Kishambaa (Tanzania)"
+    },
+    {
+        "code": "ksf",
+        "english": "Bafia",
+        "native": "rikpa"
+    },
+    {
+        "code": "ksf-CM",
+        "english": "Bafia (Cameroon)",
+        "native": "rikpa (kamɛrún)"
+    },
+    {
+        "code": "ksh",
+        "english": "Colognian",
+        "native": "Kölsch"
+    },
+    {
+        "code": "ksh-DE",
+        "english": "Colognian (Germany)",
+        "native": "Kölsch en Doütschland"
+    },
+    {
+        "code": "ku",
+        "english": "Kurdish",
+        "native": "kurdî"
+    },
+    {
+        "code": "ku-TR",
+        "english": "Kurdish (Turkey)",
+        "native": "kurdî (Tirkiye)"
+    },
+    {
+        "code": "kw",
+        "english": "Cornish",
+        "native": "kernewek"
+    },
+    {
+        "code": "kw-GB",
+        "english": "Cornish (United Kingdom)",
+        "native": "kernewek (Rywvaneth Unys)"
+    },
+    {
+        "code": "ky",
+        "english": "Kyrgyz",
+        "native": "кыргызча"
+    },
+    {
+        "code": "ky-KG",
+        "english": "Kyrgyz (Kyrgyzstan)",
+        "native": "кыргызча (Кыргызстан)"
+    },
+    {
+        "code": "lag",
+        "english": "Langi",
+        "native": "Kɨlaangi"
+    },
+    {
+        "code": "lag-TZ",
+        "english": "Langi (Tanzania)",
+        "native": "Kɨlaangi (Taansanía)"
+    },
+    {
+        "code": "lb",
+        "english": "Luxembourgish",
+        "native": "Lëtzebuergesch"
+    },
+    {
+        "code": "lb-LU",
+        "english": "Luxembourgish (Luxembourg)",
+        "native": "Lëtzebuergesch (Lëtzebuerg)"
+    },
+    {
+        "code": "lg",
+        "english": "Ganda",
+        "native": "Luganda"
+    },
+    {
+        "code": "lg-UG",
+        "english": "Ganda (Uganda)",
+        "native": "Luganda (Yuganda)"
+    },
+    {
+        "code": "lkt",
+        "english": "Lakota",
+        "native": "Lakȟólʼiyapi"
+    },
+    {
+        "code": "lkt-US",
+        "english": "Lakota (United States)",
+        "native": "Lakȟólʼiyapi (Mílahaŋska Tȟamákȟočhe)"
+    },
+    {
+        "code": "ln",
+        "english": "Lingala",
+        "native": "lingála"
+    },
+    {
+        "code": "ln-AO",
+        "english": "Lingala (Angola)",
+        "native": "lingála (Angóla)"
+    },
+    {
+        "code": "ln-CD",
+        "english": "Lingala (Congo - Kinshasa)",
+        "native": "lingála (Republíki ya Kongó Demokratíki)"
+    },
+    {
+        "code": "ln-CF",
+        "english": "Lingala (Central African Republic)",
+        "native": "lingála (Repibiki ya Afríka ya Káti)"
+    },
+    {
+        "code": "ln-CG",
+        "english": "Lingala (Congo - Brazzaville)",
+        "native": "lingála (Kongo)"
+    },
+    {
+        "code": "lo",
+        "english": "Lao",
+        "native": "ລາວ"
+    },
+    {
+        "code": "lo-LA",
+        "english": "Lao (Laos)",
+        "native": "ລາວ (ລາວ)"
+    },
+    {
+        "code": "lrc",
+        "english": "Northern Luri",
+        "native": "لۊری شومالی"
+    },
+    {
+        "code": "lrc-IQ",
+        "english": "Northern Luri (Iraq)",
+        "native": "Northern Luri (Iraq)"
+    },
+    {
+        "code": "lrc-IR",
+        "english": "Northern Luri (Iran)",
+        "native": "Northern Luri (Iran)"
+    },
+    {
+        "code": "lt",
+        "english": "Lithuanian",
+        "native": "lietuvių"
+    },
+    {
+        "code": "lt-LT",
+        "english": "Lithuanian (Lithuania)",
+        "native": "lietuvių (Lietuva)"
+    },
+    {
+        "code": "lu",
+        "english": "Luba-Katanga",
+        "native": "Tshiluba"
+    },
+    {
+        "code": "lu-CD",
+        "english": "Luba-Katanga (Congo - Kinshasa)",
+        "native": "Tshiluba (Ditunga wa Kongu)"
+    },
+    {
+        "code": "luo",
+        "english": "Luo",
+        "native": "Dholuo"
+    },
+    {
+        "code": "luo-KE",
+        "english": "Luo (Kenya)",
+        "native": "Dholuo (Kenya)"
+    },
+    {
+        "code": "luy",
+        "english": "Luyia",
+        "native": "Luluhia"
+    },
+    {
+        "code": "luy-KE",
+        "english": "Luyia (Kenya)",
+        "native": "Luluhia (Kenya)"
+    },
+    {
+        "code": "lv",
+        "english": "Latvian",
+        "native": "latviešu"
+    },
+    {
+        "code": "lv-LV",
+        "english": "Latvian (Latvia)",
+        "native": "latviešu (Latvija)"
+    },
+    {
+        "code": "mai",
+        "english": "Maithili",
+        "native": "मैथिली"
+    },
+    {
+        "code": "mai-IN",
+        "english": "Maithili (India)",
+        "native": "मैथिली (भारत)"
+    },
+    {
+        "code": "mas",
+        "english": "Masai",
+        "native": "Maa"
+    },
+    {
+        "code": "mas-KE",
+        "english": "Masai (Kenya)",
+        "native": "Maa (Kenya)"
+    },
+    {
+        "code": "mas-TZ",
+        "english": "Masai (Tanzania)",
+        "native": "Maa (Tansania)"
+    },
+    {
+        "code": "mer",
+        "english": "Meru",
+        "native": "Kĩmĩrũ"
+    },
+    {
+        "code": "mer-KE",
+        "english": "Meru (Kenya)",
+        "native": "Kĩmĩrũ (Kenya)"
+    },
+    {
+        "code": "mfe",
+        "english": "Morisyen",
+        "native": "kreol morisien"
+    },
+    {
+        "code": "mfe-MU",
+        "english": "Morisyen (Mauritius)",
+        "native": "kreol morisien (Moris)"
+    },
+    {
+        "code": "mg",
+        "english": "Malagasy",
+        "native": "Malagasy"
+    },
+    {
+        "code": "mg-MG",
+        "english": "Malagasy (Madagascar)",
+        "native": "Malagasy (Madagasikara)"
+    },
+    {
+        "code": "mgh",
+        "english": "Makhuwa-Meetto",
+        "native": "Makua"
+    },
+    {
+        "code": "mgh-MZ",
+        "english": "Makhuwa-Meetto (Mozambique)",
+        "native": "Makua (Umozambiki)"
+    },
+    {
+        "code": "mgo",
+        "english": "Metaʼ",
+        "native": "metaʼ"
+    },
+    {
+        "code": "mgo-CM",
+        "english": "Metaʼ (Cameroon)",
+        "native": "metaʼ (Kamalun)"
+    },
+    {
+        "code": "mi",
+        "english": "Māori",
+        "native": "Māori"
+    },
+    {
+        "code": "mi-NZ",
+        "english": "Māori (New Zealand)",
+        "native": "Māori (Aotearoa)"
+    },
+    {
+        "code": "mk",
+        "english": "Macedonian",
+        "native": "македонски"
+    },
+    {
+        "code": "mk-MK",
+        "english": "Macedonian (North Macedonia)",
+        "native": "македонски (Северна Македонија)"
+    },
+    {
+        "code": "ml",
+        "english": "Malayalam",
+        "native": "മലയാളം"
+    },
+    {
+        "code": "ml-IN",
+        "english": "Malayalam (India)",
+        "native": "മലയാളം (ഇന്ത്യ)"
+    },
+    {
+        "code": "mn",
+        "english": "Mongolian",
+        "native": "монгол"
+    },
+    {
+        "code": "mn-MN",
+        "english": "Mongolian (Mongolia)",
+        "native": "монгол (Монгол)"
+    },
+    {
+        "code": "mni",
+        "english": "Manipuri",
+        "native": "মৈতৈলোন্"
+    },
+    {
+        "code": "mni-Beng",
+        "english": "Manipuri (Bangla)",
+        "native": "মৈতৈলোন্ (বাংলা)"
+    },
+    {
+        "code": "mni-Beng-IN",
+        "english": "Manipuri (Bangla), (India)",
+        "native": "মৈতৈলোন্ (বাংলা, ইন্দিয়া)"
+    },
+    {
+        "code": "mr",
+        "english": "Marathi",
+        "native": "मराठी"
+    },
+    {
+        "code": "mr-IN",
+        "english": "Marathi (India)",
+        "native": "मराठी (भारत)"
+    },
+    {
+        "code": "ms",
+        "english": "Malay",
+        "native": "Melayu"
+    },
+    {
+        "code": "ms-BN",
+        "english": "Malay (Brunei)",
+        "native": "Melayu (Brunei)"
+    },
+    {
+        "code": "ms-ID",
+        "english": "Malay (Indonesia)",
+        "native": "Melayu (Indonesia)"
+    },
+    {
+        "code": "ms-MY",
+        "english": "Malay (Malaysia)",
+        "native": "Melayu (Malaysia)"
+    },
+    {
+        "code": "ms-SG",
+        "english": "Malay (Singapore)",
+        "native": "Melayu (Singapura)"
+    },
+    {
+        "code": "mt",
+        "english": "Maltese",
+        "native": "Malti"
+    },
+    {
+        "code": "mt-MT",
+        "english": "Maltese (Malta)",
+        "native": "Malti (Malta)"
+    },
+    {
+        "code": "mua",
+        "english": "Mundang",
+        "native": "MUNDAŊ"
+    },
+    {
+        "code": "mua-CM",
+        "english": "Mundang (Cameroon)",
+        "native": "MUNDAŊ (kameruŋ)"
+    },
+    {
+        "code": "my",
+        "english": "Burmese",
+        "native": "မြန်မာ"
+    },
+    {
+        "code": "my-MM",
+        "english": "Burmese (Myanmar [Burma])",
+        "native": "မြန်မာ (မြန်မာ)"
+    },
+    {
+        "code": "mzn",
+        "english": "Mazanderani",
+        "native": "مازرونی"
+    },
+    {
+        "code": "mzn-IR",
+        "english": "Mazanderani (Iran)",
+        "native": "مازرونی (ایران)"
+    },
+    {
+        "code": "naq",
+        "english": "Nama",
+        "native": "Khoekhoegowab"
+    },
+    {
+        "code": "naq-NA",
+        "english": "Nama (Namibia)",
+        "native": "Khoekhoegowab (Namibiab)"
+    },
+    {
+        "code": "nb",
+        "english": "Norwegian Bokmål",
+        "native": "norsk bokmål"
+    },
+    {
+        "code": "nb-NO",
+        "english": "Norwegian Bokmål (Norway)",
+        "native": "norsk bokmål (Norge)"
+    },
+    {
+        "code": "nb-SJ",
+        "english": "Norwegian Bokmål (Svalbard & Jan Mayen)",
+        "native": "norsk bokmål (Svalbard og Jan Mayen)"
+    },
+    {
+        "code": "nd",
+        "english": "North Ndebele",
+        "native": "isiNdebele"
+    },
+    {
+        "code": "nd-ZW",
+        "english": "North Ndebele (Zimbabwe)",
+        "native": "isiNdebele (Zimbabwe)"
+    },
+    {
+        "code": "ne",
+        "english": "Nepali",
+        "native": "नेपाली"
+    },
+    {
+        "code": "ne-IN",
+        "english": "Nepali (India)",
+        "native": "नेपाली (भारत)"
+    },
+    {
+        "code": "ne-NP",
+        "english": "Nepali (Nepal)",
+        "native": "नेपाली (नेपाल)"
+    },
+    {
+        "code": "nl",
+        "english": "Dutch",
+        "native": "Nederlands"
+    },
+    {
+        "code": "nl-AW",
+        "english": "Dutch (Aruba)",
+        "native": "Nederlands (Aruba)"
+    },
+    {
+        "code": "nl-BE",
+        "english": "Dutch (Belgium)",
+        "native": "Nederlands (België)"
+    },
+    {
+        "code": "nl-BQ",
+        "english": "Dutch (Caribbean Netherlands)",
+        "native": "Nederlands (Caribisch Nederland)"
+    },
+    {
+        "code": "nl-CW",
+        "english": "Dutch (Curaçao)",
+        "native": "Nederlands (Curaçao)"
+    },
+    {
+        "code": "nl-NL",
+        "english": "Dutch (Netherlands)",
+        "native": "Nederlands (Nederland)"
+    },
+    {
+        "code": "nl-SR",
+        "english": "Dutch (Suriname)",
+        "native": "Nederlands (Suriname)"
+    },
+    {
+        "code": "nl-SX",
+        "english": "Dutch (Sint Maarten)",
+        "native": "Nederlands (Sint-Maarten)"
+    },
+    {
+        "code": "nmg",
+        "english": "Kwasio",
+        "native": "Kwasio"
+    },
+    {
+        "code": "nmg-CM",
+        "english": "Kwasio (Cameroon)",
+        "native": "Kwasio (Cameroon)"
+    },
+    {
+        "code": "nn",
+        "english": "Norwegian Nynorsk",
+        "native": "norsk nynorsk"
+    },
+    {
+        "code": "nn-NO",
+        "english": "Norwegian Nynorsk (Norway)",
+        "native": "norsk nynorsk (Noreg)"
+    },
+    {
+        "code": "nnh",
+        "english": "Ngiemboon",
+        "native": "Shwóŋò ngiembɔɔn"
+    },
+    {
+        "code": "nnh-CM",
+        "english": "Ngiemboon (Cameroon)",
+        "native": "Shwóŋò ngiembɔɔn (Kàmalûm)"
+    },
+    {
+        "code": "no",
+        "english": "Norwegian",
+        "native": "norsk"
+    },
+    {
+        "code": "nus",
+        "english": "Nuer",
+        "native": "Thok Nath"
+    },
+    {
+        "code": "nus-SS",
+        "english": "Nuer (South Sudan)",
+        "native": "Nuer (South Sudan)"
+    },
+    {
+        "code": "nyn",
+        "english": "Nyankole",
+        "native": "Runyankore"
+    },
+    {
+        "code": "nyn-UG",
+        "english": "Nyankole (Uganda)",
+        "native": "Runyankore (Uganda)"
+    },
+    {
+        "code": "om",
+        "english": "Oromo",
+        "native": "Oromoo"
+    },
+    {
+        "code": "om-ET",
+        "english": "Oromo (Ethiopia)",
+        "native": "Oromoo (Itoophiyaa)"
+    },
+    {
+        "code": "om-KE",
+        "english": "Oromo (Kenya)",
+        "native": "Oromoo (Keeniyaa)"
+    },
+    {
+        "code": "or",
+        "english": "Odia",
+        "native": "ଓଡ଼ିଆ"
+    },
+    {
+        "code": "or-IN",
+        "english": "Odia (India)",
+        "native": "ଓଡ଼ିଆ (ଭାରତ)"
+    },
+    {
+        "code": "os",
+        "english": "Ossetic",
+        "native": "ирон"
+    },
+    {
+        "code": "os-GE",
+        "english": "Ossetic (Georgia)",
+        "native": "ирон (Гуырдзыстон)"
+    },
+    {
+        "code": "os-RU",
+        "english": "Ossetic (Russia)",
+        "native": "ирон (Уӕрӕсе)"
+    },
+    {
+        "code": "pa",
+        "english": "Punjabi",
+        "native": "ਪੰਜਾਬੀ"
+    },
+    {
+        "code": "pa-Arab",
+        "english": "Punjabi (Arabic)",
+        "native": "پنجابی (عربی)"
+    },
+    {
+        "code": "pa-Arab-PK",
+        "english": "Punjabi (Arabic), (Pakistan)",
+        "native": "پنجابی (عربی, پاکستان)"
+    },
+    {
+        "code": "pa-Guru",
+        "english": "Punjabi (Gurmukhi)",
+        "native": "ਪੰਜਾਬੀ (ਗੁਰਮੁਖੀ)"
+    },
+    {
+        "code": "pa-Guru-IN",
+        "english": "Punjabi (Gurmukhi), (India)",
+        "native": "ਪੰਜਾਬੀ (ਗੁਰਮੁਖੀ, ਭਾਰਤ)"
+    },
+    {
+        "code": "pcm",
+        "english": "Nigerian Pidgin",
+        "native": "Naijíriá Píjin"
+    },
+    {
+        "code": "pcm-NG",
+        "english": "Nigerian Pidgin (Nigeria)",
+        "native": "Naijíriá Píjin (Naijíria)"
+    },
+    {
+        "code": "pl",
+        "english": "Polish",
+        "native": "polski"
+    },
+    {
+        "code": "pl-PL",
+        "english": "Polish (Poland)",
+        "native": "polski (Polska)"
+    },
+    {
+        "code": "ps",
+        "english": "Pashto",
+        "native": "پښتو"
+    },
+    {
+        "code": "ps-AF",
+        "english": "Pashto (Afghanistan)",
+        "native": "پښتو (افغانستان)"
+    },
+    {
+        "code": "ps-PK",
+        "english": "Pashto (Pakistan)",
+        "native": "پښتو (پاکستان)"
+    },
+    {
+        "code": "pt",
+        "english": "Portuguese",
+        "native": "português"
+    },
+    {
+        "code": "pt-AO",
+        "english": "Portuguese (Angola)",
+        "native": "português (Angola)"
+    },
+    {
+        "code": "pt-BR",
+        "english": "Portuguese (Brazil)",
+        "native": "português (Brasil)"
+    },
+    {
+        "code": "pt-CH",
+        "english": "Portuguese (Switzerland)",
+        "native": "português (Suíça)"
+    },
+    {
+        "code": "pt-CV",
+        "english": "Portuguese (Cape Verde)",
+        "native": "português (Cabo Verde)"
+    },
+    {
+        "code": "pt-GQ",
+        "english": "Portuguese (Equatorial Guinea)",
+        "native": "português (Guiné Equatorial)"
+    },
+    {
+        "code": "pt-GW",
+        "english": "Portuguese (Guinea-Bissau)",
+        "native": "português (Guiné-Bissau)"
+    },
+    {
+        "code": "pt-LU",
+        "english": "Portuguese (Luxembourg)",
+        "native": "português (Luxemburgo)"
+    },
+    {
+        "code": "pt-MO",
+        "english": "Portuguese (Macao SAR China)",
+        "native": "português (Macau, RAE da China)"
+    },
+    {
+        "code": "pt-MZ",
+        "english": "Portuguese (Mozambique)",
+        "native": "português (Moçambique)"
+    },
+    {
+        "code": "pt-PT",
+        "english": "Portuguese (Portugal)",
+        "native": "português (Portugal)"
+    },
+    {
+        "code": "pt-ST",
+        "english": "Portuguese (São Tomé & Príncipe)",
+        "native": "português (São Tomé e Príncipe)"
+    },
+    {
+        "code": "pt-TL",
+        "english": "Portuguese (Timor-Leste)",
+        "native": "português (Timor-Leste)"
+    },
+    {
+        "code": "qu",
+        "english": "Quechua",
+        "native": "Runasimi"
+    },
+    {
+        "code": "qu-BO",
+        "english": "Quechua (Bolivia)",
+        "native": "Runasimi (Bolivia)"
+    },
+    {
+        "code": "qu-EC",
+        "english": "Quechua (Ecuador)",
+        "native": "Runasimi (Ecuador)"
+    },
+    {
+        "code": "qu-PE",
+        "english": "Quechua (Peru)",
+        "native": "Runasimi (Perú)"
+    },
+    {
+        "code": "raj",
+        "english": "Rajasthani",
+        "native": "राजस्थानी"
+    },
+    {
+        "code": "raj-IN",
+        "english": "Rajasthani (India)",
+        "native": "राजस्थानी (भारत)"
+    },
+    {
+        "code": "rm",
+        "english": "Romansh",
+        "native": "rumantsch"
+    },
+    {
+        "code": "rm-CH",
+        "english": "Romansh (Switzerland)",
+        "native": "rumantsch (Svizra)"
+    },
+    {
+        "code": "rn",
+        "english": "Rundi",
+        "native": "Ikirundi"
+    },
+    {
+        "code": "rn-BI",
+        "english": "Rundi (Burundi)",
+        "native": "Ikirundi (Uburundi)"
+    },
+    {
+        "code": "ro",
+        "english": "Romanian",
+        "native": "română"
+    },
+    {
+        "code": "ro-MD",
+        "english": "Romanian (Moldova)",
+        "native": "română (Republica Moldova)"
+    },
+    {
+        "code": "ro-RO",
+        "english": "Romanian (Romania)",
+        "native": "română (România)"
+    },
+    {
+        "code": "rof",
+        "english": "Rombo",
+        "native": "Kihorombo"
+    },
+    {
+        "code": "rof-TZ",
+        "english": "Rombo (Tanzania)",
+        "native": "Kihorombo (Tanzania)"
+    },
+    {
+        "code": "ru",
+        "english": "Russian",
+        "native": "русский"
+    },
+    {
+        "code": "ru-BY",
+        "english": "Russian (Belarus)",
+        "native": "русский (Беларусь)"
+    },
+    {
+        "code": "ru-KG",
+        "english": "Russian (Kyrgyzstan)",
+        "native": "русский (Киргизия)"
+    },
+    {
+        "code": "ru-KZ",
+        "english": "Russian (Kazakhstan)",
+        "native": "русский (Казахстан)"
+    },
+    {
+        "code": "ru-MD",
+        "english": "Russian (Moldova)",
+        "native": "русский (Молдова)"
+    },
+    {
+        "code": "ru-RU",
+        "english": "Russian (Russia)",
+        "native": "русский (Россия)"
+    },
+    {
+        "code": "ru-UA",
+        "english": "Russian (Ukraine)",
+        "native": "русский (Украина)"
+    },
+    {
+        "code": "rw",
+        "english": "Kinyarwanda",
+        "native": "Kinyarwanda"
+    },
+    {
+        "code": "rw-RW",
+        "english": "Kinyarwanda (Rwanda)",
+        "native": "Kinyarwanda (U Rwanda)"
+    },
+    {
+        "code": "rwk",
+        "english": "Rwa",
+        "native": "Kiruwa"
+    },
+    {
+        "code": "rwk-TZ",
+        "english": "Rwa (Tanzania)",
+        "native": "Kiruwa (Tanzania)"
+    },
+    {
+        "code": "sa",
+        "english": "Sanskrit",
+        "native": "संस्कृत भाषा"
+    },
+    {
+        "code": "sa-IN",
+        "english": "Sanskrit (India)",
+        "native": "संस्कृत भाषा (भारतः)"
+    },
+    {
+        "code": "sah",
+        "english": "Yakut",
+        "native": "саха тыла"
+    },
+    {
+        "code": "sah-RU",
+        "english": "Yakut (Russia)",
+        "native": "саха тыла (Арассыыйа)"
+    },
+    {
+        "code": "saq",
+        "english": "Samburu",
+        "native": "Kisampur"
+    },
+    {
+        "code": "saq-KE",
+        "english": "Samburu (Kenya)",
+        "native": "Kisampur (Kenya)"
+    },
+    {
+        "code": "sat",
+        "english": "Santali",
+        "native": "ᱥᱟᱱᱛᱟᱲᱤ"
+    },
+    {
+        "code": "sat-Olck",
+        "english": "Santali (Ol Chiki)",
+        "native": "ᱥᱟᱱᱛᱟᱲᱤ (ᱚᱞ ᱪᱤᱠᱤ)"
+    },
+    {
+        "code": "sat-Olck-IN",
+        "english": "Santali (Ol Chiki), (India)",
+        "native": "ᱥᱟᱱᱛᱟᱲᱤ (ᱚᱞ ᱪᱤᱠᱤ, ᱤᱱᱰᱤᱭᱟ)"
+    },
+    {
+        "code": "sbp",
+        "english": "Sangu",
+        "native": "Ishisangu"
+    },
+    {
+        "code": "sbp-TZ",
+        "english": "Sangu (Tanzania)",
+        "native": "Ishisangu (Tansaniya)"
+    },
+    {
+        "code": "sc",
+        "english": "Sardinian",
+        "native": "sardu"
+    },
+    {
+        "code": "sc-IT",
+        "english": "Sardinian (Italy)",
+        "native": "sardu (Itàlia)"
+    },
+    {
+        "code": "sd",
+        "english": "Sindhi",
+        "native": "سنڌي"
+    },
+    {
+        "code": "sd-Arab",
+        "english": "Sindhi (Arabic)",
+        "native": "سنڌي (عربي)"
+    },
+    {
+        "code": "sd-Arab-PK",
+        "english": "Sindhi (Arabic), (Pakistan)",
+        "native": "سنڌي (عربي, پاڪستان)"
+    },
+    {
+        "code": "sd-Deva",
+        "english": "Sindhi (Devanagari)",
+        "native": "सिन्धी (देवनागिरी)"
+    },
+    {
+        "code": "sd-Deva-IN",
+        "english": "Sindhi (Devanagari), (India)",
+        "native": "सिन्धी (देवनागिरी, भारत)"
+    },
+    {
+        "code": "se",
+        "english": "Northern Sami",
+        "native": "davvisámegiella"
+    },
+    {
+        "code": "se-FI",
+        "english": "Northern Sami (Finland)",
+        "native": "davvisámegiella (Suopma)"
+    },
+    {
+        "code": "se-NO",
+        "english": "Northern Sami (Norway)",
+        "native": "davvisámegiella (Norga)"
+    },
+    {
+        "code": "se-SE",
+        "english": "Northern Sami (Sweden)",
+        "native": "davvisámegiella (Ruoŧŧa)"
+    },
+    {
+        "code": "seh",
+        "english": "Sena",
+        "native": "sena"
+    },
+    {
+        "code": "seh-MZ",
+        "english": "Sena (Mozambique)",
+        "native": "sena (Moçambique)"
+    },
+    {
+        "code": "ses",
+        "english": "Koyraboro Senni",
+        "native": "Koyraboro senni"
+    },
+    {
+        "code": "ses-ML",
+        "english": "Koyraboro Senni (Mali)",
+        "native": "Koyraboro senni (Maali)"
+    },
+    {
+        "code": "sg",
+        "english": "Sango",
+        "native": "Sängö"
+    },
+    {
+        "code": "sg-CF",
+        "english": "Sango (Central African Republic)",
+        "native": "Sängö (Ködörösêse tî Bêafrîka)"
+    },
+    {
+        "code": "shi",
+        "english": "Tachelhit",
+        "native": "ⵜⴰⵛⵍⵃⵉⵜ"
+    },
+    {
+        "code": "shi-Latn",
+        "english": "Tachelhit (Latin)",
+        "native": "Tachelhit (Latin)"
+    },
+    {
+        "code": "shi-Latn-MA",
+        "english": "Tachelhit (Latin), (Morocco)",
+        "native": "Tachelhit (Latin, Morocco)"
+    },
+    {
+        "code": "shi-Tfng",
+        "english": "Tachelhit (Tifinagh)",
+        "native": "Tachelhit (Tifinagh)"
+    },
+    {
+        "code": "shi-Tfng-MA",
+        "english": "Tachelhit (Tifinagh), (Morocco)",
+        "native": "Tachelhit (Tifinagh, Morocco)"
+    },
+    {
+        "code": "si",
+        "english": "Sinhala",
+        "native": "සිංහල"
+    },
+    {
+        "code": "si-LK",
+        "english": "Sinhala (Sri Lanka)",
+        "native": "සිංහල (ශ්‍රී ලංකාව)"
+    },
+    {
+        "code": "sk",
+        "english": "Slovak",
+        "native": "slovenčina"
+    },
+    {
+        "code": "sk-SK",
+        "english": "Slovak (Slovakia)",
+        "native": "slovenčina (Slovensko)"
+    },
+    {
+        "code": "sl",
+        "english": "Slovenian",
+        "native": "slovenščina"
+    },
+    {
+        "code": "sl-SI",
+        "english": "Slovenian (Slovenia)",
+        "native": "slovenščina (Slovenija)"
+    },
+    {
+        "code": "smn",
+        "english": "Inari Sami",
+        "native": "anarâškielâ"
+    },
+    {
+        "code": "smn-FI",
+        "english": "Inari Sami (Finland)",
+        "native": "anarâškielâ (Suomâ)"
+    },
+    {
+        "code": "sn",
+        "english": "Shona",
+        "native": "chiShona"
+    },
+    {
+        "code": "sn-ZW",
+        "english": "Shona (Zimbabwe)",
+        "native": "chiShona (Zimbabwe)"
+    },
+    {
+        "code": "so",
+        "english": "Somali",
+        "native": "Soomaali"
+    },
+    {
+        "code": "so-DJ",
+        "english": "Somali (Djibouti)",
+        "native": "Soomaali (Jabuuti)"
+    },
+    {
+        "code": "so-ET",
+        "english": "Somali (Ethiopia)",
+        "native": "Soomaali (Itoobiya)"
+    },
+    {
+        "code": "so-KE",
+        "english": "Somali (Kenya)",
+        "native": "Soomaali (Kenya)"
+    },
+    {
+        "code": "so-SO",
+        "english": "Somali (Somalia)",
+        "native": "Soomaali (Soomaaliya)"
+    },
+    {
+        "code": "sq",
+        "english": "Albanian",
+        "native": "shqip"
+    },
+    {
+        "code": "sq-AL",
+        "english": "Albanian (Albania)",
+        "native": "shqip (Shqipëri)"
+    },
+    {
+        "code": "sq-MK",
+        "english": "Albanian (North Macedonia)",
+        "native": "shqip (Maqedonia e Veriut)"
+    },
+    {
+        "code": "sq-XK",
+        "english": "Albanian (Kosovo)",
+        "native": "shqip (Kosovë)"
+    },
+    {
+        "code": "sr",
+        "english": "Serbian",
+        "native": "српски"
+    },
+    {
+        "code": "sr-Cyrl",
+        "english": "Serbian (Cyrillic)",
+        "native": "српски (ћирилица)"
+    },
+    {
+        "code": "sr-Cyrl-BA",
+        "english": "Serbian (Cyrillic), (Bosnia & Herzegovina)",
+        "native": "српски (ћирилица, Босна и Херцеговина)"
+    },
+    {
+        "code": "sr-Cyrl-ME",
+        "english": "Serbian (Cyrillic), (Montenegro)",
+        "native": "српски (ћирилица, Црна Гора)"
+    },
+    {
+        "code": "sr-Cyrl-RS",
+        "english": "Serbian (Cyrillic), (Serbia)",
+        "native": "српски (ћирилица, Србија)"
+    },
+    {
+        "code": "sr-Cyrl-XK",
+        "english": "Serbian (Cyrillic), (Kosovo)",
+        "native": "српски (ћирилица, Косово)"
+    },
+    {
+        "code": "sr-Latn",
+        "english": "Serbian (Latin)",
+        "native": "srpski (latinica)"
+    },
+    {
+        "code": "sr-Latn-BA",
+        "english": "Serbian (Latin), (Bosnia & Herzegovina)",
+        "native": "srpski (latinica, Bosna i Hercegovina)"
+    },
+    {
+        "code": "sr-Latn-ME",
+        "english": "Serbian (Latin), (Montenegro)",
+        "native": "srpski (latinica, Crna Gora)"
+    },
+    {
+        "code": "sr-Latn-RS",
+        "english": "Serbian (Latin), (Serbia)",
+        "native": "srpski (latinica, Srbija)"
+    },
+    {
+        "code": "sr-Latn-XK",
+        "english": "Serbian (Latin), (Kosovo)",
+        "native": "srpski (latinica, Kosovo)"
+    },
+    {
+        "code": "su",
+        "english": "Sundanese",
+        "native": "Basa Sunda"
+    },
+    {
+        "code": "su-Latn",
+        "english": "Sundanese (Latin)",
+        "native": "Basa Sunda (Latin)"
+    },
+    {
+        "code": "su-Latn-ID",
+        "english": "Sundanese (Latin), (Indonesia)",
+        "native": "Basa Sunda (Latin, Indonesia)"
+    },
+    {
+        "code": "sv",
+        "english": "Swedish",
+        "native": "svenska"
+    },
+    {
+        "code": "sv-AX",
+        "english": "Swedish (Åland Islands)",
+        "native": "svenska (Åland)"
+    },
+    {
+        "code": "sv-FI",
+        "english": "Swedish (Finland)",
+        "native": "svenska (Finland)"
+    },
+    {
+        "code": "sv-SE",
+        "english": "Swedish (Sweden)",
+        "native": "svenska (Sverige)"
+    },
+    {
+        "code": "sw",
+        "english": "Swahili",
+        "native": "Kiswahili"
+    },
+    {
+        "code": "sw-CD",
+        "english": "Swahili (Congo - Kinshasa)",
+        "native": "Kiswahili (Jamhuri ya Kidemokrasia ya Kongo)"
+    },
+    {
+        "code": "sw-KE",
+        "english": "Swahili (Kenya)",
+        "native": "Kiswahili (Kenya)"
+    },
+    {
+        "code": "sw-TZ",
+        "english": "Swahili (Tanzania)",
+        "native": "Kiswahili (Tanzania)"
+    },
+    {
+        "code": "sw-UG",
+        "english": "Swahili (Uganda)",
+        "native": "Kiswahili (Uganda)"
+    },
+    {
+        "code": "ta",
+        "english": "Tamil",
+        "native": "தமிழ்"
+    },
+    {
+        "code": "ta-IN",
+        "english": "Tamil (India)",
+        "native": "தமிழ் (இந்தியா)"
+    },
+    {
+        "code": "ta-LK",
+        "english": "Tamil (Sri Lanka)",
+        "native": "தமிழ் (இலங்கை)"
+    },
+    {
+        "code": "ta-MY",
+        "english": "Tamil (Malaysia)",
+        "native": "தமிழ் (மலேசியா)"
+    },
+    {
+        "code": "ta-SG",
+        "english": "Tamil (Singapore)",
+        "native": "தமிழ் (சிங்கப்பூர்)"
+    },
+    {
+        "code": "te",
+        "english": "Telugu",
+        "native": "తెలుగు"
+    },
+    {
+        "code": "te-IN",
+        "english": "Telugu (India)",
+        "native": "తెలుగు (భారతదేశం)"
+    },
+    {
+        "code": "teo",
+        "english": "Teso",
+        "native": "Kiteso"
+    },
+    {
+        "code": "teo-KE",
+        "english": "Teso (Kenya)",
+        "native": "Kiteso (Kenia)"
+    },
+    {
+        "code": "teo-UG",
+        "english": "Teso (Uganda)",
+        "native": "Kiteso (Uganda)"
+    },
+    {
+        "code": "tg",
+        "english": "Tajik",
+        "native": "тоҷикӣ"
+    },
+    {
+        "code": "tg-TJ",
+        "english": "Tajik (Tajikistan)",
+        "native": "тоҷикӣ (Тоҷикистон)"
+    },
+    {
+        "code": "th",
+        "english": "Thai",
+        "native": "ไทย"
+    },
+    {
+        "code": "th-TH",
+        "english": "Thai (Thailand)",
+        "native": "ไทย (ไทย)"
+    },
+    {
+        "code": "ti",
+        "english": "Tigrinya",
+        "native": "ትግርኛ"
+    },
+    {
+        "code": "ti-ER",
+        "english": "Tigrinya (Eritrea)",
+        "native": "ትግርኛ (ኤርትራ)"
+    },
+    {
+        "code": "ti-ET",
+        "english": "Tigrinya (Ethiopia)",
+        "native": "ትግርኛ (ኢትዮጵያ)"
+    },
+    {
+        "code": "tk",
+        "english": "Turkmen",
+        "native": "türkmen dili"
+    },
+    {
+        "code": "tk-TM",
+        "english": "Turkmen (Turkmenistan)",
+        "native": "türkmen dili (Türkmenistan)"
+    },
+    {
+        "code": "to",
+        "english": "Tongan",
+        "native": "lea fakatonga"
+    },
+    {
+        "code": "to-TO",
+        "english": "Tongan (Tonga)",
+        "native": "lea fakatonga (Tonga)"
+    },
+    {
+        "code": "tr",
+        "english": "Turkish",
+        "native": "Türkçe"
+    },
+    {
+        "code": "tr-CY",
+        "english": "Turkish (Cyprus)",
+        "native": "Türkçe (Kıbrıs)"
+    },
+    {
+        "code": "tr-TR",
+        "english": "Turkish (Turkey)",
+        "native": "Türkçe (Türkiye)"
+    },
+    {
+        "code": "tt",
+        "english": "Tatar",
+        "native": "татар"
+    },
+    {
+        "code": "tt-RU",
+        "english": "Tatar (Russia)",
+        "native": "татар (Россия)"
+    },
+    {
+        "code": "twq",
+        "english": "Tasawaq",
+        "native": "Tasawaq senni"
+    },
+    {
+        "code": "twq-NE",
+        "english": "Tasawaq (Niger)",
+        "native": "Tasawaq senni (Nižer)"
+    },
+    {
+        "code": "tzm",
+        "english": "Central Atlas Tamazight",
+        "native": "Tamaziɣt n laṭlaṣ"
+    },
+    {
+        "code": "tzm-MA",
+        "english": "Central Atlas Tamazight (Morocco)",
+        "native": "Tamaziɣt n laṭlaṣ (Meṛṛuk)"
+    },
+    {
+        "code": "ug",
+        "english": "Uyghur",
+        "native": "ئۇيغۇرچە"
+    },
+    {
+        "code": "ug-CN",
+        "english": "Uyghur (China)",
+        "native": "ئۇيغۇرچە (جۇڭگو)"
+    },
+    {
+        "code": "uk",
+        "english": "Ukrainian",
+        "native": "українська"
+    },
+    {
+        "code": "uk-UA",
+        "english": "Ukrainian (Ukraine)",
+        "native": "українська (Україна)"
+    },
+    {
+        "code": "ur",
+        "english": "Urdu",
+        "native": "اردو"
+    },
+    {
+        "code": "ur-IN",
+        "english": "Urdu (India)",
+        "native": "اردو (بھارت)"
+    },
+    {
+        "code": "ur-PK",
+        "english": "Urdu (Pakistan)",
+        "native": "اردو (پاکستان)"
+    },
+    {
+        "code": "uz",
+        "english": "Uzbek",
+        "native": "o‘zbek"
+    },
+    {
+        "code": "uz-Arab",
+        "english": "Uzbek (Arabic)",
+        "native": "اوزبیک (عربی)"
+    },
+    {
+        "code": "uz-Arab-AF",
+        "english": "Uzbek (Arabic), (Afghanistan)",
+        "native": "اوزبیک (عربی, افغانستان)"
+    },
+    {
+        "code": "uz-Cyrl",
+        "english": "Uzbek (Cyrillic)",
+        "native": "ўзбекча (Кирил)"
+    },
+    {
+        "code": "uz-Cyrl-UZ",
+        "english": "Uzbek (Cyrillic), (Uzbekistan)",
+        "native": "ўзбекча (Кирил, Ўзбекистон)"
+    },
+    {
+        "code": "uz-Latn",
+        "english": "Uzbek (Latin)",
+        "native": "o‘zbek (lotin)"
+    },
+    {
+        "code": "uz-Latn-UZ",
+        "english": "Uzbek (Latin), (Uzbekistan)",
+        "native": "o‘zbek (lotin, Oʻzbekiston)"
+    },
+    {
+        "code": "vai",
+        "english": "Vai",
+        "native": "ꕙꔤ"
+    },
+    {
+        "code": "vai-Latn",
+        "english": "Vai (Latin)",
+        "native": "Vai (Latin)"
+    },
+    {
+        "code": "vai-Latn-LR",
+        "english": "Vai (Latin), (Liberia)",
+        "native": "Vai (Latin, Liberia)"
+    },
+    {
+        "code": "vai-Vaii",
+        "english": "Vai (Vai)",
+        "native": "Vai (Vai)"
+    },
+    {
+        "code": "vai-Vaii-LR",
+        "english": "Vai (Vai), (Liberia)",
+        "native": "Vai (Vai, Liberia)"
+    },
+    {
+        "code": "vi",
+        "english": "Vietnamese",
+        "native": "Tiếng Việt"
+    },
+    {
+        "code": "vi-VN",
+        "english": "Vietnamese (Vietnam)",
+        "native": "Tiếng Việt (Việt Nam)"
+    },
+    {
+        "code": "vun",
+        "english": "Vunjo",
+        "native": "Kyivunjo"
+    },
+    {
+        "code": "vun-TZ",
+        "english": "Vunjo (Tanzania)",
+        "native": "Kyivunjo (Tanzania)"
+    },
+    {
+        "code": "wae",
+        "english": "Walser",
+        "native": "Walser"
+    },
+    {
+        "code": "wae-CH",
+        "english": "Walser (Switzerland)",
+        "native": "Walser (Schwiz)"
+    },
+    {
+        "code": "wo",
+        "english": "Wolof",
+        "native": "Wolof"
+    },
+    {
+        "code": "wo-SN",
+        "english": "Wolof (Senegal)",
+        "native": "Wolof (Senegaal)"
+    },
+    {
+        "code": "xh",
+        "english": "Xhosa",
+        "native": "IsiXhosa"
+    },
+    {
+        "code": "xh-ZA",
+        "english": "Xhosa (South Africa)",
+        "native": "IsiXhosa (EMzantsi Afrika)"
+    },
+    {
+        "code": "xog",
+        "english": "Soga",
+        "native": "Olusoga"
+    },
+    {
+        "code": "xog-UG",
+        "english": "Soga (Uganda)",
+        "native": "Olusoga (Yuganda)"
+    },
+    {
+        "code": "yav",
+        "english": "Yangben",
+        "native": "nuasue"
+    },
+    {
+        "code": "yav-CM",
+        "english": "Yangben (Cameroon)",
+        "native": "nuasue (Kemelún)"
+    },
+    {
+        "code": "yi",
+        "english": "Yiddish",
+        "native": "ייִדיש"
+    },
+    {
+        "code": "yi-001",
+        "english": "Yiddish (world)",
+        "native": "ייִדיש (וועלט)"
+    },
+    {
+        "code": "yo",
+        "english": "Yoruba",
+        "native": "Èdè Yorùbá"
+    },
+    {
+        "code": "yo-BJ",
+        "english": "Yoruba (Benin)",
+        "native": "Èdè Yorùbá (Bɛ̀nɛ̀)"
+    },
+    {
+        "code": "yo-NG",
+        "english": "Yoruba (Nigeria)",
+        "native": "Èdè Yorùbá (Nàìjíríà)"
+    },
+    {
+        "code": "yrl",
+        "english": "Nheengatu",
+        "native": "nheẽgatu"
+    },
+    {
+        "code": "yrl-BR",
+        "english": "Nheengatu (Brazil)",
+        "native": "nheẽgatu (Brasiu)"
+    },
+    {
+        "code": "yrl-CO",
+        "english": "Nheengatu (Colombia)",
+        "native": "ñengatú (Kurũbiya)"
+    },
+    {
+        "code": "yrl-VE",
+        "english": "Nheengatu (Venezuela)",
+        "native": "ñengatú (Wenesuera)"
+    },
+    {
+        "code": "yue",
+        "english": "Cantonese",
+        "native": "粵語"
+    },
+    {
+        "code": "yue-Hans",
+        "english": "Cantonese (Simplified)",
+        "native": "粤语 (简体)"
+    },
+    {
+        "code": "yue-Hans-CN",
+        "english": "Cantonese (Simplified), (China)",
+        "native": "粤语 (简体，中华人民共和国)"
+    },
+    {
+        "code": "yue-Hant",
+        "english": "Cantonese (Traditional)",
+        "native": "粵語 (繁體)"
+    },
+    {
+        "code": "yue-Hant-HK",
+        "english": "Cantonese (Traditional), (Hong Kong SAR China)",
+        "native": "粵語 (繁體，中華人民共和國香港特別行政區)"
+    },
+    {
+        "code": "zgh",
+        "english": "Standard Moroccan Tamazight",
+        "native": "ⵜⴰⵎⴰⵣⵉⵖⵜ"
+    },
+    {
+        "code": "zgh-MA",
+        "english": "Standard Moroccan Tamazight (Morocco)",
+        "native": "ⵜⴰⵎⴰⵣⵉⵖⵜ (ⵍⵎⵖⵔⵉⴱ)"
+    },
+    {
+        "code": "zh",
+        "english": "Chinese",
+        "native": "中文"
+    },
+    {
+        "code": "zh-Hans",
+        "english": "Chinese (Simplified)",
+        "native": "中文（简体）"
+    },
+    {
+        "code": "zh-Hans-CN",
+        "english": "Chinese (Simplified), (China)",
+        "native": "中文（简体，中国）"
+    },
+    {
+        "code": "zh-Hans-HK",
+        "english": "Chinese (Simplified), (Hong Kong SAR China)",
+        "native": "中文（简体，中国香港特别行政区）"
+    },
+    {
+        "code": "zh-Hans-MO",
+        "english": "Chinese (Simplified), (Macao SAR China)",
+        "native": "中文（简体，中国澳门特别行政区）"
+    },
+    {
+        "code": "zh-Hans-SG",
+        "english": "Chinese (Simplified), (Singapore)",
+        "native": "中文（简体，新加坡）"
+    },
+    {
+        "code": "zh-Hant",
+        "english": "Chinese (Traditional)",
+        "native": "中文（繁體）"
+    },
+    {
+        "code": "zh-Hant-HK",
+        "english": "Chinese (Traditional), (Hong Kong SAR China)",
+        "native": "中文（繁體字，中國香港特別行政區）"
+    },
+    {
+        "code": "zh-Hant-MO",
+        "english": "Chinese (Traditional), (Macao SAR China)",
+        "native": "中文（繁體字，中國澳門特別行政區）"
+    },
+    {
+        "code": "zh-Hant-TW",
+        "english": "Chinese (Traditional), (Taiwan)",
+        "native": "中文（繁體，台灣）"
+    },
+    {
+        "code": "zu",
+        "english": "Zulu",
+        "native": "isiZulu"
+    },
+    {
+        "code": "zu-ZA",
+        "english": "Zulu (South Africa)",
+        "native": "isiZulu (iNingizimu Afrika)"
+    }
+]
