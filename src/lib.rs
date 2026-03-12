@@ -5,6 +5,11 @@
 mod iso_3166_1;
 pub use iso_3166_1::*;
 
+#[cfg(feature = "bcp47")]
+mod bcp47_language_info;
+#[cfg(feature = "bcp47")]
+pub use bcp47_language_info::*;
+
 #[cfg(test)]
 mod sanity_checks {
     use crate::*;
