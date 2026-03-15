@@ -1,14 +1,17 @@
 #![forbid(unsafe_code)]
 #![doc = include_str!("../README.md")]
-#![no_std]
+#![cfg_attr(not(feature = "std"), no_std)]
 
 mod iso_3166_1;
 pub use iso_3166_1::*;
 
-#[cfg(feature = "bcp47")]
-mod bcp47_language_info;
-#[cfg(feature = "bcp47")]
-pub use bcp47_language_info::*;
+mod errors;
+pub use errors::*;
+
+#[cfg(feature = "std")]
+mod bcp47;
+#[cfg(feature = "std")]
+pub use bcp47::*;
 
 #[cfg(test)]
 mod sanity_checks {
