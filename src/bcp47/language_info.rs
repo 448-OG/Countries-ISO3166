@@ -1,4 +1,6 @@
 #![allow(non_camel_case_types)]
+
+#[derive(Debug, PartialEq, Eq, PartialOrd, Ord, Clone, Copy, Hash, Default)]
 pub enum BC47LanguageInfo {
     AF,
     AF_NA,
@@ -236,6 +238,7 @@ pub enum BC47LanguageInfo {
     EN_TZ,
     EN_UG,
     EN_UM,
+    #[default]
     EN_US,
     EN_US_POSIX,
     EN_VC,
