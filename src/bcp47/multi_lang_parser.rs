@@ -14,7 +14,7 @@ type Key = u64;
 ))]
 type Key = String;
 
-#[cfg(doc)]
+#[cfg(any(doc, docsrs))]
 type Key = String;
 
 // Use a generic parameter for struct in doc-tests:
