@@ -1,28 +1,28 @@
-use rapidhash::{HashMapExt, RapidHashMap as HashMap};
+use std::collections::HashMap;
 
 use crate::{CountriesIso31661Error, CountriesIso31661Result};
 
+#[cfg(all(feature = "large_keys", not(feature = "small_keys")))]
+type Key = u64;
+
+#[cfg(all(feature = "small_keys", not(feature = "large_keys")))]
+type Key = String;
+
 #[derive(Debug, PartialEq, Eq, Clone)]
-pub struct TranslationMap {
+pub struct MultiLanguageTranslationMap {
     // Some sentences may be long so having fixed size lookup seems like a good idea.
-    // The hashing is done on the client to offload work from the server.
-    // The server just sends the hashes of the `en-US` word or sentence.
-    // Blake3 (in SIMD mode) is since it is very collision resistant compared to
-    // non-cryptographic hashes which are faster but since `Krill-Server` is supposed
-    // to be low maintenance, the cryptographic hash was used so users don't get confused
-    // from collisions especially if sentences are large.
     // A hashmap is also used here in case users rearrange the translations JSON5 file.
-    identifier_index: HashMap<blake3::Hash, usize>,
+    identifier_index: HashMap<Key, usize>,
     // The key here is not hashed because the size is between 2 and less than 10 characters (BCP47).
     bcp47_index: HashMap<String, usize>,
     translations: Vec<Vec<String>>,
 }
 
-impl TranslationMap {
+impl MultiLanguageTranslationMap {
     pub fn new(source_path: &str, source_contents: &str) -> CountriesIso31661Result<Self> {
         let data = Self::parse(source_path, source_contents)?;
 
-        let mut identifier_index = HashMap::<blake3::Hash, usize>::with_capacity(805);
+        let mut identifier_index = HashMap::<Key, usize>::with_capacity(805);
         let mut bcp47_index = HashMap::<String, usize>::with_capacity(805);
         let mut translations = Vec::<Vec<String>>::default();
 
@@ -36,15 +36,17 @@ impl TranslationMap {
                     .enumerate()
                     .for_each(|(index, (bcp47_code, translation))| {
                         languages_inner.push(translation);
-                        bcp47_index.insert(bcp47_code.to_lowercase(), index);
+                        bcp47_index.insert(bcp47_code, index);
                     });
 
                 translations.push(languages_inner);
 
-                identifier_index.insert(
-                    blake3::hash(identifier.to_lowercase().as_bytes()),
-                    identifier_index_key,
-                );
+                #[cfg(all(feature = "large_keys", not(feature = "small_keys")))]
+                let key = rapidhash::v3::rapidhash_v3(identifier.as_bytes());
+                #[cfg(all(feature = "small_keys", not(feature = "large_keys")))]
+                let key = identifier;
+
+                identifier_index.insert(key, identifier_index_key);
             });
 
         Ok(Self {
@@ -60,8 +62,13 @@ impl TranslationMap {
         identifier: &str,
         bcp47_code: &str,
     ) -> CountriesIso31661Result<String> {
+        #[cfg(all(feature = "large_keys", not(feature = "small_keys")))]
+        let identifier = &rapidhash::v3::rapidhash_v3(identifier.as_bytes());
+        #[cfg(all(feature = "small_keys", not(feature = "large_keys")))]
+        let identifier = identifier;
+
         self.identifier_index
-            .get(&blake3::hash(identifier.as_bytes()))
+            .get(identifier)
             .map(|identifier_index| {
                 let bcp47_index = self.bcp47_index.get(bcp47_code).ok_or(
                     CountriesIso31661Error::Bcp47EntryNotFound {
@@ -79,7 +86,13 @@ impl TranslationMap {
             ))
     }
 
-    pub fn identifier_index(&self) -> &HashMap<blake3::Hash, usize> {
+    #[cfg(all(feature = "large_keys", not(feature = "small_keys")))]
+    pub fn identifier_index(&self) -> &HashMap<u64, usize> {
+        &self.identifier_index
+    }
+
+    #[cfg(all(feature = "small_keys", not(feature = "large_keys")))]
+    pub fn identifier_index(&self) -> &HashMap<String, usize> {
         &self.identifier_index
     }
 
@@ -203,14 +216,14 @@ pub struct Translation {
 
 #[cfg(test)]
 mod sanity_checks {
-    use crate::{CountriesIso31661Error, TranslationMap};
+    use crate::{CountriesIso31661Error, MultiLanguageTranslationMap};
 
     #[test]
     fn parse_correct_translations() {
         let source_contents = include_str!("../../test-lang.bcp47");
         let source_path = "../../test-lang.bcp47";
 
-        assert!(TranslationMap::new(source_path, source_contents).is_ok());
+        assert!(MultiLanguageTranslationMap::new(source_path, source_contents).is_ok());
     }
 
     #[test]
@@ -219,7 +232,7 @@ mod sanity_checks {
         let source_path = "../../test-lang-invalid.bcp47";
 
         assert_eq!(
-            TranslationMap::new(source_path, source_contents).err(),
+            MultiLanguageTranslationMap::new(source_path, source_contents).err(),
             Some(CountriesIso31661Error::UnsupportedBcp47Code {
                 source_path: source_path.to_string(),
                 invalid_lang: "en-USS".to_string()

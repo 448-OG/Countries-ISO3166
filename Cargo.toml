@@ -1,6 +1,6 @@
 [package]
 name = "countries-iso3166"
-version = "1.4.0"
+version = "1.5.0"
 authors = ["448-OG <superuser@448.africa>"]
 edition = "2021"
 license = "MIT OR Apache-2.0"
@@ -15,27 +15,15 @@ readme = "README.md"
 
 [features]
 default = []
-std = ["blake3", "dep:rapidhash"]
+std = []
+small_keys = []
+large_keys = ["dep:rapidhash"]
 
 [dependencies]
 rapidhash = { version = "4.4.1", default-features = false, optional = true, features = [
     "std",
 ] }
-blake3 = { version = "1.8.3", default-features = false }
 thiserror = { version = "2.0.18", default-features = false }
-
-[target.'cfg(target_arch = "wasm32")'.dependencies]
-blake3 = { version = "1.8.3", default-features = false, features = [
-    "wasm32_simd",
-], optional = true }
-
-[target.'cfg(target_arch = "aarch54")'.dependencies]
-blake3 = { version = "1.8.3", default-features = false, features = [
-    "neon",
-], optional = true }
-
-[target.'cfg(any(target_arch = "x86", target_arch = "x86_64"))'.dependencies]
-blake3 = { version = "1.8.3", default-features = false, optional = true }
 
 [package.metadata.docs.rs]
 features = ["std"]

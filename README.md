@@ -54,19 +54,51 @@ assert_eq!(country_code_iso_31661, CountryIso31661::CI);
 
 ### Examples parsing country names and codes
 
+This is can be a single language file or multi-language file.
+
+#### Single language file
+
+The single language file only contains only the translations for a single language.
+See [The BCP47 file extension below for the formats of these files](#the-bcp-47-file).
+
 ```rust
-use countries_iso3166::{CountriesIso31661Error, TranslationMap};
+use countries_iso3166::SingleLanguageTranslationMap;
+
+let source_contents = include_str!("../test-single-lang.bcp47");
+let source_path = "../test-single-lang.bcp47";
+
+let parse = SingleLanguageTranslationMap::parse(source_path, source_contents);
+
+assert!(parse.is_ok());
+
+
+const LANG: &str = r#"""
+hello_world = hello world
+lorem = "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Fuga impedit porro possimus quo obcaecati molestias perferendis, consectetur iure natus.
+At ipsa laudantium iusto illo fuga tempora facilis. Vero, tempora libero."
+"""#;
+
+let parse = SingleLanguageTranslationMap::parse("static str", LANG);
+
+assert!(parse.is_err());
+```
+
+#### Multi-language file
+
+```rust
+use countries_iso3166::{CountriesIso31661Error, MultiLanguageTranslationMap};
 
 let source_contents = include_str!("../test-lang.bcp47");
 let source_path = "../test-lang.bcp47";
 
-assert!(TranslationMap::new(source_path, source_contents).is_ok());
+assert!(MultiLanguageTranslationMap::new(source_path, source_contents).is_ok());
 
 let source_contents = include_str!("../test-lang-invalid.bcp47");
 let source_path = "../test-lang-invalid.bcp47";
 
 assert_eq!(
-    TranslationMap::new(source_path, source_contents).err(),
+    MultiLanguageTranslationMap::new(source_path, source_contents).err(),
     Some(CountriesIso31661Error::UnsupportedBcp47Code {
         source_path: source_path.to_string(),
         invalid_lang: "en-USS".to_string()
@@ -74,9 +106,41 @@ assert_eq!(
 );
 ```
 
-#### The BCP-47 file
+### The BCP-47 file
+
+As seen above the language translations format can be for a single language or multi-language.
+This data interchange file format is very simple for average folk to translate to their native language without the learning curve of other formats like JSON, YAML, TOML, etc or modify the binary to add languages.
+
+#### The Sigle-Language File format
 
 The BCP-47 translation format is done with the following syntax:
+
+- A `# ` describing the BCP-47 case sensitive language code.
+- A new line with the `identifier` of the language entry followed by an `=` sign and lastly the translation. If the translation is multi-line, the start of the multi-line is defined by a starting quote mark `"`, words spanning multiple lines and ending with another quotation mark `"`.
+
+```sh
+# en-US
+identifier = translation
+identifier = "multi-line
+translation
+can
+span multiple lines
+"
+```
+
+Example:
+
+```sh
+# en-US
+hello_world_button = hello world
+lorem = "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Fuga impedit porro possimus quo obcaecati molestias perferendis, consectetur iure natus.
+ At ipsa laudantium iusto illo fuga tempora facilis. Vero, tempora libero."
+```
+
+#### The Multi-Language File format
+
+The BCP-47 translation format for a multiline is done with the following syntax:
 
 - A `# ` describing the opening of an identifier. This identifier is used to lookup th translations to other languages
 - A new line with the `BCP-47` code of the language followed by an `=` sign and lastly the translation. If the translation is multi-line, the start of the multi-line is defined by a starting quote mark `"`, words spanning multiple lines and ending with another quotation mark `"`.
@@ -90,8 +154,6 @@ can
 span multiple lines
 "
 ```
-
-This ensures that the file format is very simple for average folk to translate to their native language without the learning curve of other formats like JSON, YAML, TOML, etc
 
 Example:
 

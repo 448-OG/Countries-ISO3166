@@ -16,11 +16,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@v6
-    - name: Build with `std` enabled
-      run: cargo build --verbose --features std
+    - name: Build with `std` and `small_keys` enabled
+      run: cargo build --verbose --features std,small_keys
+    - name: Build with `std` and `large_keys` enabled
+      run: cargo build --verbose --features std,large_keys
     - name: Build  with `std` disabled
       run: cargo build --verbose
-    - name: Run tests with `std` enabled
-      run: cargo test --verbose  --features std  -- --no-capture
+    - name: Run tests with `std` and `small_keys` enabled
+      run: cargo test --verbose  --features std,small_keys  -- --no-capture
+    - name: Run tests with `std` and `large_keys` enabled
+      run: cargo test --verbose  --features std,large_keys  -- --no-capture
     - name: Run tests with `std` disabled
       run: cargo test --lib --tests --verbose 
