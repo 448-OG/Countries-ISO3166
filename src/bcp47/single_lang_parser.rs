@@ -98,9 +98,9 @@ impl SingleLanguageTranslationMap {
         self.translations.get(key)
     }
 
-    // pub fn bcp47_code(&self) -> &str {
-    //     self.bcp47_code.as_str()
-    // }
+    pub fn bcp47_code(&self) -> &str {
+        self.bcp47_code.as_str()
+    }
 
     pub fn translations(&self) -> &HashMap<String, String> {
         &self.translations
@@ -120,8 +120,8 @@ mod tests {
 
     #[test]
     fn valid_lang() {
-        let source_contents = include_str!("../../test-single-lang.bcp47");
-        let source_path = "../../test-single-lang.bcp47";
+        let source_contents = include_str!("../../example_data/test-single-lang.bcp47");
+        let source_path = "../../example_data/test-single-lang.bcp47";
 
         let parse = SingleLanguageTranslationMap::parse(source_path, source_contents);
 

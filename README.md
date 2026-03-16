@@ -64,8 +64,8 @@ See [The BCP47 file extension below for the formats of these files](#the-bcp-47-
 ```rust
 use countries_iso3166::SingleLanguageTranslationMap;
 
-let source_contents = include_str!("../test-single-lang.bcp47");
-let source_path = "../test-single-lang.bcp47";
+let source_contents = include_str!("../example_data/test-single-lang.bcp47");
+let source_path = "../example_data/test-single-lang.bcp47";
 
 let parse = SingleLanguageTranslationMap::parse(source_path, source_contents);
 
@@ -89,13 +89,13 @@ assert!(parse.is_err());
 ```rust
 use countries_iso3166::{CountriesIso31661Error, MultiLanguageTranslationMap};
 
-let source_contents = include_str!("../test-lang.bcp47");
-let source_path = "../test-lang.bcp47";
+let source_contents = include_str!("../example_data/test-lang.bcp47");
+let source_path = "../example_data/test-lang.bcp47";
 
 assert!(MultiLanguageTranslationMap::new(source_path, source_contents).is_ok());
 
-let source_contents = include_str!("../test-lang-invalid.bcp47");
-let source_path = "../test-lang-invalid.bcp47";
+let source_contents = include_str!("../example_data/test-lang-invalid.bcp47");
+let source_path = "../example_data/test-lang-invalid.bcp47";
 
 assert_eq!(
     MultiLanguageTranslationMap::new(source_path, source_contents).err(),
@@ -172,7 +172,7 @@ zh-Hans = 你好，世界
 #
 ```
 
-If reading from a file like in the examples, it is recommended to name the file with a `.bcp47` file extension so that in future if a parser is made for this you can get syntaxt highlighting as seen in the example `../test-lang.bcp47` file.
+If reading from a file like in the examples, it is recommended to name the file with a `.bcp47` file extension so that in future if a parser is made for this you can get syntaxt highlighting as seen in the example `../example_data/test-lang.bcp47` file.
 
 ### LICENSE
 
