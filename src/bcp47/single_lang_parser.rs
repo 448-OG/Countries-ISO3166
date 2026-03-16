@@ -2,7 +2,7 @@ use std::collections::HashMap;
 
 use crate::{BC47LanguageInfo, CountriesIso31661Error, CountriesIso31661Result};
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, PartialEq, Eq)]
 pub struct SingleLanguageTranslationMap {
     pub bcp47_code: String,
     pub translations: HashMap<String, String>,
