@@ -20,4 +20,7 @@ pub enum CountriesIso31661Error {
         source_path: String,
         invalid_lang: String,
     },
+    #[cfg(feature = "std")]
+    #[error("The BCP-47 code indicating the language was not found in file `{0}`")]
+    LanguageBcp47CodeNotFound(String),
 }
