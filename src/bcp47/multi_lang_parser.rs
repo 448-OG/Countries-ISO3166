@@ -2,18 +2,25 @@ use std::collections::HashMap;
 
 use crate::{CountriesIso31661Error, CountriesIso31661Result};
 
-#[cfg(all(feature = "large_keys", not(feature = "small_keys")))]
+#[cfg(any(
+    all(feature = "large_keys", not(feature = "small_keys"), not(doc)),
+    all(feature = "large_keys", not(feature = "small_keys"), not(doc)),
+))]
 type Key = u64;
 
-#[cfg(all(feature = "small_keys", not(feature = "large_keys")))]
+#[cfg(any(
+    all(feature = "small_keys", not(feature = "large_keys"), not(doc)),
+    all(feature = "small_keys", not(feature = "large_keys"), not(doc)),
+))]
 type Key = String;
 
-#[derive(Debug, PartialEq, Eq, Clone)]
-pub struct MultiLanguageTranslationMap {
-    // Some sentences may be long so having fixed size lookup seems like a good idea.
-    // A hashmap is also used here in case users rearrange the translations JSON5 file.
-    identifier_index: HashMap<Key, usize>,
-    // The key here is not hashed because the size is between 2 and less than 10 characters (BCP47).
+#[cfg(doc)]
+type Key = String;
+
+// Use a generic parameter for struct in doc-tests:
+// This lets doctests instantiate it with a concrete type without relying on cfg-gated Key.
+pub struct MultiLanguageTranslationMap<K = Key> {
+    identifier_index: HashMap<K, usize>,
     bcp47_index: HashMap<String, usize>,
     translations: Vec<Vec<String>>,
 }
@@ -86,13 +93,8 @@ impl MultiLanguageTranslationMap {
             ))
     }
 
-    #[cfg(all(feature = "large_keys", not(feature = "small_keys")))]
-    pub fn identifier_index(&self) -> &HashMap<u64, usize> {
-        &self.identifier_index
-    }
-
-    #[cfg(all(feature = "small_keys", not(feature = "large_keys")))]
-    pub fn identifier_index(&self) -> &HashMap<String, usize> {
+    /// If `large_keys` feature is enabled the result of this is a `&HashMap<u64, usize>`
+    pub fn identifier_index(&self) -> &HashMap<Key, usize> {
         &self.identifier_index
     }
 
@@ -220,16 +222,16 @@ mod sanity_checks {
 
     #[test]
     fn parse_correct_translations() {
-        let source_contents = include_str!("../../test-lang.bcp47");
-        let source_path = "../../test-lang.bcp47";
+        let source_contents = include_str!("../../example_data/test-lang.bcp47");
+        let source_path = "../../example_data/test-lang.bcp47";
 
         assert!(MultiLanguageTranslationMap::new(source_path, source_contents).is_ok());
     }
 
     #[test]
     fn parse_incorrect_translations() {
-        let source_contents = include_str!("../../test-lang-invalid.bcp47");
-        let source_path = "../../test-lang-invalid.bcp47";
+        let source_contents = include_str!("../../example_data/test-lang-invalid.bcp47");
+        let source_path = "../../example_data/test-lang-invalid.bcp47";
 
         assert_eq!(
             MultiLanguageTranslationMap::new(source_path, source_contents).err(),

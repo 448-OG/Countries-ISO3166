@@ -26,6 +26,5 @@ rapidhash = { version = "4.4.1", default-features = false, optional = true, feat
 thiserror = { version = "2.0.18", default-features = false }
 
 [package.metadata.docs.rs]
-features = ["std"]
 all-features = true
 rustdoc-args = ["--cfg", "docsrs"]
