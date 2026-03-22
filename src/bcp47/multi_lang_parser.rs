@@ -20,6 +20,8 @@ type Key = String;
 // Use a generic parameter for struct in doc-tests:
 // This lets doctests instantiate it with a concrete type without relying on cfg-gated Key.
 #[derive(Debug, PartialEq, Eq, Clone, Default)]
+#[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
+#[cfg_attr(feature = "bitcode", derive(bitcode::Encode, bitcode::Decode))]
 pub struct MultiLanguageTranslationMap<
     K: std::hash::Hash + PartialEq + Eq + core::fmt::Debug + Clone = Key,
 > {
