@@ -1,6 +1,7 @@
 #![allow(non_camel_case_types)]
 
 #[derive(Debug, PartialEq, Eq, PartialOrd, Ord, Clone, Copy, Hash, Default)]
+#[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
 pub enum BC47LanguageInfo {
     AF,
     AF_NA,

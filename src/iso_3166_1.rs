@@ -2,6 +2,8 @@
 /// Working with country codes is much easier than working with country names
 /// since some of them have special UTF-8 characters that can cause confusion.
 #[derive(Debug, PartialEq, Eq, PartialOrd, Ord, Clone, Copy, Hash)]
+#[cfg_attr(feature = "bitcode", derive(bitcode::Encode, bitcode::Decode))]
+#[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
 pub enum CountryIso31661 {
     AF,
     AX,
