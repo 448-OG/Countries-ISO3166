@@ -9,5 +9,5 @@ pub use single_lang_parser::*;
 
 #[cfg(all(feature = "small_keys", feature = "large_keys", not(doc)))]
 compile_error!(
-    "The crate features `small_keys` and `large_keys` cannot be enabled at the same time"
+    "The features `small_keys` and `large_keys` cannot be enabled at the same time"
 );

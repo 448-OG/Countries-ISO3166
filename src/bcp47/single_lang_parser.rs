@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 
-use crate::{BC47LanguageInfo, CountriesIso31661Error, CountriesIso31661Result};
+use crate::{BCP47LanguageInfo, CountriesIso31661Error, CountriesIso31661Result};
 
 #[derive(Debug, Clone, PartialEq, Eq, Default)]
 #[cfg_attr(feature = "bitcode", derive(bitcode::Encode, bitcode::Decode))]
@@ -81,9 +81,9 @@ impl SingleLanguageTranslationMap {
             source_path.to_string(),
         ))?;
 
-        let parsed_code: BC47LanguageInfo = bcp47_code.as_str().into();
+        let parsed_code: BCP47LanguageInfo = bcp47_code.as_str().into();
 
-        if parsed_code == BC47LanguageInfo::UnsupportedLanguage {
+        if parsed_code == BCP47LanguageInfo::UnsupportedLanguage {
             return Err(CountriesIso31661Error::UnsupportedBcp47Code {
                 source_path: source_path.to_string(),
                 invalid_lang: bcp47_code,

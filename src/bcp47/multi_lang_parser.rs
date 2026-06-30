@@ -166,9 +166,9 @@ impl MultiLanguageTranslationMap {
             if let Some(eq_pos) = line.find('=') {
                 let lang = line[..eq_pos].trim().to_string();
 
-                let check_bc47_is_valid: crate::BC47LanguageInfo = lang.as_str().into();
+                let check_bc47_is_valid: crate::BCP47LanguageInfo = lang.as_str().into();
 
-                if check_bc47_is_valid == crate::BC47LanguageInfo::UnsupportedLanguage {
+                if check_bc47_is_valid == crate::BCP47LanguageInfo::UnsupportedLanguage {
                     return Err(CountriesIso31661Error::UnsupportedBcp47Code {
                         source_path: source_path.to_string(),
                         invalid_lang: lang,

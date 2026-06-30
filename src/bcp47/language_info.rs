@@ -2,7 +2,7 @@
 
 #[derive(Debug, PartialEq, Eq, PartialOrd, Ord, Clone, Copy, Hash, Default)]
 #[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
-pub enum BC47LanguageInfo {
+pub enum BCP47LanguageInfo {
     AF,
     AF_NA,
     AF_ZA,
@@ -812,7 +812,7 @@ pub enum BC47LanguageInfo {
     UnsupportedLanguage,
 }
 
-impl BC47LanguageInfo {
+impl BCP47LanguageInfo {
     #[inline(always)]
     pub const fn english(&self) -> &str {
         match self {
@@ -3250,7 +3250,7 @@ impl BC47LanguageInfo {
     }
 }
 
-impl From<&str> for BC47LanguageInfo {
+impl From<&str> for BCP47LanguageInfo {
     #[inline(always)]
     fn from(value: &str) -> Self {
         match value {

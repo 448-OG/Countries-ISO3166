@@ -11,6 +11,7 @@ Planned implementation for ISO 3166-3 [https://en.wikipedia.org/wiki/ISO_3166-1_
 ### Examples parsing country names and codes
 
 ```rust
+
 use countries_iso3166::CountryIso31661;
 
 // Initializing the `CountryIso31661` using a code
@@ -62,6 +63,8 @@ The single language file only contains only the translations for a single langua
 See [The BCP47 file extension below for the formats of these files](#the-bcp-47-file).
 
 ```rust
+#[cfg(any(all(feature = "std", feature = "small_keys"), all(feature = "std", feature = "large_keys")))]
+fn first() {
 use countries_iso3166::SingleLanguageTranslationMap;
 
 let source_contents = include_str!("../example_data/test-single-lang.bcp47");
@@ -82,11 +85,14 @@ At ipsa laudantium iusto illo fuga tempora facilis. Vero, tempora libero."
 let parse = SingleLanguageTranslationMap::parse("static str", LANG);
 
 assert!(parse.is_err());
+}
 ```
 
 #### Multi-language file
 
 ```rust
+#[cfg(any(all(feature = "std", feature = "small_keys"), all(feature = "std", feature = "large_keys")))]
+fn first() {
 use countries_iso3166::{CountriesIso31661Error, MultiLanguageTranslationMap};
 
 let source_contents = include_str!("../example_data/test-lang.bcp47");
@@ -104,6 +110,7 @@ assert_eq!(
         invalid_lang: "en-USS".to_string()
     })
 );
+}
 ```
 
 ### The BCP-47 file
